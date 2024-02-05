@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AJIMS Journal</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="head">
+        <button class="register" onclick="openLoginModal()">REGISTER/LOGIN</button>
+        <!-- Login Modal -->
+        <div id="loginModal" class="modal">
+            <div class="modal-content">
+                <span class="close" onclick="closeModal('loginModal')">&times;</span>
+                <embed type=text/html src="login.html" width="100%" height="800em"></embed>
+            </div>
+        </div>
+    </div>
+    <br>
+    <section class="menu">
+        <button class="btn" onclick="goToHomePage()">HOME</button>
+    </section>
+    <br>
+    <hr>
+    <!-- About Us Section -->
+    <div>
+        <p>Please choose a category:</p>
+        <button class="forReaders readcls" onclick="showContactSection('readers');btnClk('forReaders');">For Readers</button>
+        <button  class="forAuth authcls" onclick="showContactSection('authors');btnClk('forAuth');">For Authors</button>
+        <button  class="forLib libcls" onclick="showContactSection('librarians');btnClk('forLib');">For Librarian</button>
+
+        <!-- Content for different sections -->
+        <div id="generalSection" class="about readers readcls1">
+                    <h2>READERS</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque sequi quae, obcaecati quasi atque consequuntur
+                        culpa dolore beatae. Repellat modi veniam magnam animi dolorem optio ipsum cum, commodi dignissimos
+                        exercitationem.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque sequi quae, obcaecati quasi atque consequuntur
+                        culpa dolore beatae. Repellat modi veniam magnam animi dolorem optio ipsum cum, commodi dignissimos
+                        exercitationem.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque sequi quae, obcaecati quasi atque consequuntur
+                        culpa dolore beatae. Repellat modi veniam magnam animi dolorem.</p>
+        </div>
+
+        <div id="submissionSection" class="about authors authcls2">
+            <h2>AUTHORS</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque sequi quae, obcaecati quasi atque consequuntur
+                culpa dolore beatae. Repellat modi veniam magnam animi dolorem optio ipsum cum, commodi dignissimos
+                exercitationem.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque sequi quae, obcaecati quasi atque consequuntur
+                culpa dolore beatae. Repellat modi veniam magnam animi dolorem optio ipsum cum, commodi dignissimos
+                exercitationem.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque sequi quae, obcaecati quasi atque consequuntur
+                culpa dolore beatae. Repellat modi veniam magnam animi dolorem.</p>
+        </div>
+
+        <div id="editorialSection" class="about librarians libcls3">
+            <h2>LIBRARIANS</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque sequi quae, obcaecati quasi atque consequuntur
+                culpa dolore beatae. Repellat modi veniam magnam animi dolorem optio ipsum cum, commodi dignissimos
+                exercitationem.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque sequi quae, obcaecati quasi atque consequuntur
+                culpa dolore beatae. Repellat modi veniam magnam animi dolorem optio ipsum cum, commodi dignissimos
+                exercitationem.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque sequi quae, obcaecati quasi atque consequuntur
+                culpa dolore beatae. Repellat modi veniam magnam animi dolorem.</p>
+        </div>
+    </div>
+    <br>
+    <footer class="about footer" id="contact"></footer>
+        <img src="logo.jpg" class="footer_logo">
+        <div>
+            <H1>CONTACTS </H1>
+            <ul>
+                <li>DETAILES ABOUT CONTACT (NAME PLACE ETC....)</li>
+                <li>MOBILE NO:#1234567890</li>
+                <li>el ph no:#66725631</li>
+            </ul>
+        </div>
+        <div>
+            <H1>FAQ</H1>
+        </div>
+        <div>
+            <h1> EMAIL </h1>
+            <ul>
+                <li>ENQUIRY EMAIL: 123@gmal.com</li>
+                <li> SUBMISSION EMAIL: 123@gmal.com
+                </li>
+            </ul>
+        </div>
+    </footer>
+    <script >
+       
+
+        let i;
+        let cls=localStorage.getItem("cls");
+        console.log(cls);
+        document.querySelector(".forReaders").style.boxShadow="5px 5px 6px black";
+            document.querySelector(".forAuth").style.boxShadow="5px 5px 6px black";
+            document.querySelector(".forLib").style.boxShadow="5px 5px 6px black";
+        setTimeout(()=>{
+            document.querySelector("."+cls).style.boxShadow="1px 1px 8px black";
+        },100);
+        
+        if(cls==="readcls"){
+                i=1;
+            }else if(cls=="authcls"){
+                i=2;
+            }else{
+                i=3;
+            }
+            console.log(i);
+        
+    // Set the initial display style for the default section (e.g., 'general')
+    showContactSection(cls+`${i}`);
+        
+        function goToHomePage() {
+            // Replace 'index.html' with the actual path to your home page
+            window.location.href = 'index.html';
+        }
+
+        function openLoginModal() {
+            document.getElementById("loginModal").style.display = "block";
+        }
+
+        function closeModal(modalId) {
+            document.getElementById(modalId).style.display = "none";
+        };
+        
+        function showContactSection(name) {
+            // Hide all sections
+           
+            document.querySelector(".authors").style.display = "none";
+            document.querySelector(".readers").style.display = "none";
+            document.querySelector(".librarians").style.display = "none";
+
+            // Show the selected section
+            
+            document.querySelector('.'+name).style.display = "block";
+
+        }
+       
+        function btnClk(x){
+            document.querySelector(".forReaders").style.boxShadow="5px 5px 6px black";
+            document.querySelector(".forAuth").style.boxShadow="5px 5px 6px black";
+            document.querySelector(".forLib").style.boxShadow="5px 5px 6px black";
+            document.querySelector("."+x).style.boxShadow="1px 1px 8px black";
+            
+        }
+
+
+
+    </script>
+</body>
+
+</html>

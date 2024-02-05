@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AJIMS Journal</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="head">
+        <button class="register" onclick="openLoginModal()">REGISTER/LOGIN</button>
+        <!-- Login Modal -->
+        <div id="loginModal" class="modal">
+            <div class="modal-content">
+                <span class="close" onclick="closeModal('loginModal')">&times;</span>
+                <embed type=text/html src="login.html" width="100%" height="800em"></embed>
+            </div>
+        </div>
+    </div>
+    <br>
+    <section class="menu">
+        <button class="btn" onclick="goToHomePage()">HOME</button>
+    </section>
+    <br>
+    <hr>
+
+                <div class="editorialTeam">
+                <h1>Editorial Team</h1>
+                <p>The team</p>
+                <p>hahahahaha</p>
+                <p>hahahahaha</p>
+                <p>hahahahaha</p>
+                <p>hahahahaha</p>
+                <p>hahahahaha</p>
+                <p>hahahahaha</p>
+                </div>
+<br><br>
+<hr>
+<br><br>
+    <footer class="about footer" id="contact">
+        <img src="logo.jpg" class="footer_logo">
+        <div>
+            <H1>CONTACTS </H1>
+            <ul>
+                <li>DETAILES ABOUT CONTACT (NAME PLACE ETC....)</li>
+                <li>MOBILE NO:#1234567890</li>
+                <li>el ph no:#66725631</li>
+            </ul>
+        </div>
+        <div>
+            <H1>FAQ</H1>
+        </div>
+        <div>
+            <h1> EMAIL </h1>
+            <ul>
+                <li>ENQUIRY EMAIL: 123@gmal.com</li>
+                <li> SUBMISSION EMAIL: 123@gmal.com
+                </li>
+            </ul>
+        </div>
+    </footer>
+    <script>
+        function goToHomePage() {
+            // Replace 'index.html' with the actual path to your home page
+            window.location.href = 'index.html';
+        }
+        function openLoginModal() {
+            document.getElementById("loginModal").style.display = "block";
+        }
+
+        function closeModal(modalId) {
+            document.getElementById(modalId).style.display = "none";
+        };
+    </script>
+</body>
+
+</html>
