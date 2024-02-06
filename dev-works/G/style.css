@@ -1,8 +1,10 @@
+
 body {
     margin: 0;
     height: 100vh;
     overflow-x: hidden;
     min-height: 100vh;
+    background-image: linear-gradient(90deg,#9aabcf,#d0d2d4);
 }
 
 br {
@@ -11,32 +13,40 @@ br {
     content: '\A';
 }
 
-.head {
+.head{
     position: relative;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+    display: grid;
+    grid-template-columns: 80% auto;
+    place-items: center;
     width: 100%;
     height: 18vh;
     top: 0.2vw;
     color: white;
     border: 2px solid black;
     border-radius: 0px 60px 0px 60px;
-    overflow: hidden;
-    background-color: #05559a;
-    background-image: url('In.jpg');
-    background-size: cover;
-    background-position: center;
+    background: #131d38;
+     overflow: hidden; 
+}
+.goHome{
+    position:absolute;
+    width:10%;
+    height:90%;
+    border-radius: 100%;
+    z-index:10;
+    left:3%;
 }
 
-.logo {
-    position: absolute;
-    left: 2vw;
-    width: 40px;
-    height: 40px;
-    margin-inline: 20px;
-    scale: 60%;
+
+.headbg{
+     width:95%;
+    height:80%;
+    z-index:1;
+    opacity:1;
+    position: relative;
 }
+
+
+ 
 
 .title {
     margin-block: 0;
@@ -47,10 +57,7 @@ br {
 
 .register {
     color: white;
-    position: absolute;
-    top: 50%;
-    right: 20px;
-    transform: translateY(-50%);
+    font-size:1vw;
 }
 
 .menu {
@@ -138,19 +145,23 @@ button:hover {
     border: none;
     overflow: hidden;
     align-items: center;
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0);
     clear: both;
 }
 
 .sub-btn {
+    width:fit-content;
+    height:fit-content;
     color: black;
     font-weight: bolder;
-    font-size: 18px;
+    font-size: 1vw;
+    color:white;
     background: none;
     padding-inline: 40px;
     padding-block: 15px;
     border: 3px inset black;
-    border-radius: 30px 140px 0px 70px;
+    border-radius: 20px;
+    background-image:linear-gradient(-45deg,#bcc7e6,#131d38,#bcc7e6) ;
     border-top: none;
 }
 
@@ -316,7 +327,7 @@ button:hover {
 .modal {
     display: none;
     position: fixed;
-    z-index: 1;
+    z-index: 2;
     left: 0;
     top: 0;
     width: 100%;
@@ -332,6 +343,7 @@ button:hover {
     padding: 20px;
     border: 1px solid #888;
     width: 80%;
+    z-index: 1000000;
 }
 
 .close {
@@ -501,14 +513,12 @@ input[type="submit"] {
     margin: 0px;
     width: 100%;
     height: 100%;
-    border: 2px solid rgb(18, 251, 30);
-    background-color: rgba(18, 251, 30, 0.296);
+    border: 2px solid #f793106f;
+    background-color: rgba(251, 115, 18, 0.296)
     ;
     border-radius: 10px;
-    color: rgb(8, 7, 8);
-    padding: 15px;
     transform: scale(1);
-    box-shadow: inset 0 0 0 0 #12fb1e;
+    box-shadow: inset 0 0 0 0 #f793106f;
     transition: box-shadow ease-in-out .5s,
         color ease-out 1s, transform ease-out 1s, background-color ease-out 1s;
     transition-delay: .3s;
@@ -536,6 +546,7 @@ input[type="submit"] {
     height: fit-content;
     width: fit-content;
     margin: 8px;
+    background: white;
     transform: scale(1);
     transition: transform 0.5s;
     transition-delay: 0.3s;
@@ -550,7 +561,7 @@ input[type="submit"] {
     left: -100%;
     height: 100%;
     width: 100%;
-    background-image: linear-gradient(70deg, transparent, #12fb1e6f, transparent);
+    background-image: linear-gradient(70deg, transparent, #f793106f, transparent);
     transition: all 0.5s;
     transition-delay: .2s;
 }
@@ -563,6 +574,7 @@ input[type="submit"] {
     transform: scale(1.1);
 }
 
+.sbmtn:hover
 .sbmbtn:active {
     border: none;
 }

@@ -26,31 +26,34 @@ br {
     content: '\A';
 }
 
-.head {
+.head{
     position: relative;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+    display: grid;
+    grid-template-columns: 80% auto;
+    place-items: center;
     width: 100%;
     height: 18vh;
     top: 0.2vw;
     color: white;
     border: 2px solid black;
     border-radius: 0px 60px 0px 60px;
-    overflow: hidden;
-    background-color: #05559a;
-    background-image: url('In.jpg');
-    background-size: cover;
-    background-position: center;
+    background: #131d38;
+     overflow: hidden; 
 }
 
-.logo {
-    position: absolute;
-    left: 2vw;
-    width: 40px;
-    height: 40px;
-    margin-inline: 20px;
-    scale: 60%;
+.headbg{
+     width:95%;
+    height:80%;
+    
+   
+}
+
+.goHome{
+    position:absolute;
+    width:10%;
+    height:90%;
+    z-index:10;
+    left:4%;
 }
 
 .title {
@@ -62,10 +65,7 @@ br {
 
 .register {
     color: white;
-    position: absolute;
-    top: 50%;
-    right: 20px;
-    transform: translateY(-50%);
+    font-size:1vw;
 }
 
 /* ... (rest of your CSS remains unchanged) */

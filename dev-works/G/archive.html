@@ -8,6 +8,8 @@
 </head> 
 <body>
     <div class="head">
+        <a class="goHome" href="index.html"></a>
+        <img class="headbg" src="In1.jpg">
         <button class="register" onclick="openLoginModal()">REGISTER/LOGIN</button>
         <!-- Login Modal -->
         <div id="loginModal" class="modal">
@@ -16,6 +18,14 @@
                 <embed type=text/html src="login.html"  width="100%" height="800em"></embed>
             </div>
         </div>        
+        <!-- Submission Modal -->
+        <div id="submitModal" class="modal">
+            <div class="modal-content">
+                <span class="close" onclick="closeModal('submitModal')">&times;</span>
+                <h1>The submission page here</h1>
+            </div>
+        </div>
+           
     </div>
     <br>
     <section class="menu">
