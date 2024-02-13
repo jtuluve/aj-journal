@@ -3,6 +3,10 @@ arch {
   height: 100vh;
   overflow-x: hidden;
   min-height: 100vh;
+  margin-bottom: 30px;
+  padding: 20px;
+  border: 2px solid #ccc;
+  border-radius: 10px;
 }
 
 br {
@@ -251,6 +255,7 @@ button:hover {
   margin-inline: 10%;
   text-align: center;
   border-radius: 20px;
+  background-color: white;
   border: 2px solid black;
 }
 

@@ -27,7 +27,9 @@ const Archive = () => {
           <p>VOLUME NO # (YEAR)</p>
         </div>
       </div>
-      </div><br /><br />
+      </div>
+      <br />
+      <br />
       <div className="currentArchive">
         <h1>CURRENT VOLUME</h1>
         <h1>VOLUME NO #<br /> (YEAR)</h1>
@@ -59,6 +61,10 @@ const Archive = () => {
           <button>extra file/attachment file</button>
         </div>
       </div>
+      <br/>
+      <br/>
+      <hr/>
+      <br/>
     </div>
   )
 }

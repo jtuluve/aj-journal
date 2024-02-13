@@ -278,16 +278,6 @@ button:hover {
   font-weight: bold;
 }
 
-.gcontainer {
-  display: grid;
-  grid-template-areas:
-    'heading heading heading heading heading heading'
-    'item1 item2 item3 item4 item5 item6';
-  gap: 10px;
-  font-size: 20px;
-  background-color: white;
-}
-
 .publishwithus {
   display: grid;
   grid-template-areas: 'item1 item2 item3 item4 item5 item6 item7 item8 item9';
