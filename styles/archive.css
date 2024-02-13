@@ -1,19 +1,4 @@
-/* ... (rest of your CSS remains unchanged) */
-.menu {
-  width: 100%;
-  height: 5vh;
-  text-align: center;
-  display: flex;
-  justify-content: left;
-  align-items: center;
-  border: 2px solid black;
-  border-radius: 40px;
-  border-top: none;
-  overflow: hidden;
-  background-color: #1b2233;
-}
-
-body {
+arch {
   margin: 0;
   height: 100vh;
   overflow-x: hidden;
@@ -24,67 +9,6 @@ br {
   display: block;
   margin: 6px 0;
   content: '\A';
-}
-
-.head {
-  position: relative;
-  display: grid;
-  grid-template-columns: 80% auto;
-  place-items: center;
-  width: 100%;
-  height: 18vh;
-  top: 0.2vw;
-  color: white;
-  border: 2px solid black;
-  border-radius: 0px 60px 0px 60px;
-  background: #131d38;
-  overflow: hidden;
-}
-
-.headbg {
-  width: 95%;
-  height: 80%;
-}
-
-.goHome {
-  position: absolute;
-  width: 10%;
-  height: 90%;
-  z-index: 10;
-  left: 4%;
-}
-
-.title {
-  margin-block: 0;
-  margin-left: 10vw;
-  font-size: 38px;
-  position: relative;
-}
-
-.register {
-  color: white;
-  font-size: 1vw;
-}
-
-/* ... (rest of your CSS remains unchanged) */
-
-.menu .btn {
-  color: white;
-  min-width: 6vw;
-  min-height: 3vh;
-  font-weight: bolder;
-  font-size: 14px;
-  background: none;
-  padding-inline: 6px;
-  padding-block: 6px;
-  margin-inline: 40px;
-  border-radius: 10px;
-  border-top: none;
-}
-
-.menu .btn:hover {
-  border: 2px solid rgb(225, 227, 228);
-  border-top: none;
 }
 
 button {
@@ -100,118 +24,9 @@ button {
   transition: 0.5s;
 }
 
-.register {
-  color: white;
-  float: right;
-  right: 20px;
-}
-
 button:hover {
   box-sizing: border-box;
   box-shadow: 4px 3px white;
-}
-
-.sub {
-  position: relative;
-  width: 30vw;
-  float: right;
-  height: 40vh;
-  display: flex;
-  margin-left: 10px;
-  /* Keep this as it is */
-  flex-direction: column;
-  justify-content: space-around;
-  border-radius: 30px 140px 0px 70px;
-  border: 3px inset black;
-  border-top: none;
-  overflow: hidden;
-  align-items: center;
-  background-color: white;
-}
-
-.subm {
-  position: relative;
-  width: 30vw;
-  /* Remove float property */
-  height: fit-content;
-  display: flex;
-  float: right;
-  margin-left: 10px;
-  /* Adjust this margin to control the space between .sub and .subm */
-  flex-direction: column;
-  justify-content: space-around;
-  border-radius: 30px 140px 0px 70px;
-  border: 3px inset black;
-  border-top: none;
-  overflow: hidden;
-  align-items: center;
-  background-color: white;
-  clear: both;
-  /* Ensure it appears below the .sub division */
-}
-
-.sub-btn {
-  color: black;
-  font-weight: bolder;
-  font-size: 18px;
-  background: none;
-  padding-inline: 40px;
-  padding-block: 15px;
-  border: 3px inset black;
-  border-radius: 30px 140px 0px 70px;
-  border-top: none;
-}
-
-.sub-btn:hover {
-  border: 2px solid rgb(225, 227, 228);
-  border-top: none;
-}
-
-.sub-bg {
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  object-fit: cover;
-  object-position: center;
-  top: 0;
-  right: 0;
-  left: 0;
-  bottom: 0;
-  z-index: -4;
-  border-radius: 30px 140px 0px 70px;
-}
-
-.about {
-  width: 100;
-  height: 50vh;
-  border: 3px solid black;
-  font-size: 24px;
-  text-align: center;
-  overflow: hidden;
-  border-radius: 30px 30px 30px 30px;
-  background-color: white;
-}
-
-.editorialTeam {
-  width: 100;
-  height: fit-content;
-  border: 3px solid black;
-  font-size: 20px;
-  text-align: center;
-  overflow: hidden;
-  border-radius: 30px 30px 30px 30px;
-  background-color: white;
-}
-
-.aweb {
-  width: 100;
-  height: 50vh;
-  border: 3px solid black;
-  font-size: 28px;
-  text-align: center;
-  overflow: hidden;
-  border-radius: 30px 30px 30px 30px;
-  background-color: white;
 }
 
 .heading {
@@ -260,8 +75,8 @@ button:hover {
 .gcontainer {
   display: row;
   grid-template-areas:
-    'heading heading heading heading heading heading'
-    'item1 item2 item3 item4 item5 item6';
+    "heading heading heading heading heading heading"
+    "item1 item2 item3 item4 item5 item6";
   gap: 10px;
   font-size: 20px;
   float: right;
@@ -273,18 +88,19 @@ button:hover {
 .gcontainermain {
   display: grid;
   grid-template-areas:
-    'heading '
-    'item1 ';
+    "heading "
+    "item1 ";
   gap: 10px;
   width: 70vw;
   font-size: 20px;
   float: right;
-  background-color: white;
+  background-color: red;
 }
 
 .publishwithus {
   display: grid;
-  grid-template-areas: 'item1 item2 item3 item4 item5 item6 item7 item8 item9';
+  grid-template-areas:
+    "item1 item2 item3 item4 item5 item6 item7 item8 item9";
   gap: 10px;
   font-size: 20px;
   border-radius: 20px 20px 20px 20px;
@@ -313,6 +129,7 @@ button:hover {
   border: 2px solid black;
   margin: 5px;
   font-size: 20px;
+
 }
 
 .modal {
@@ -385,12 +202,7 @@ button:hover {
 }
 
 .footer {
-  background-image: linear-gradient(
-    60deg,
-    rgb(0, 0, 0),
-    rgba(0, 0, 0, 0.815),
-    rgb(0, 0, 0)
-  );
+  background-image: linear-gradient(60deg, rgb(0, 0, 0), rgba(0, 0, 0, 0.815), rgb(0, 0, 0));
   backdrop-filter: blur(5px);
   display: flex;
   /* height:auto; */
@@ -405,11 +217,11 @@ button:hover {
   height: fit-content;
 }
 
-.footer > div {
+.footer>div {
   padding-block: 2%;
 }
 
-.footer > div > ul > li {
+.footer>div>ul>li {
   line-height: 2;
   text-align: left;
   list-style: inside;
@@ -417,7 +229,7 @@ button:hover {
   font-size: small;
 }
 
-.footer > div > h1 {
+.footer>div>h1 {
   color: white;
 
   font-size: x-large;
@@ -448,6 +260,7 @@ button:hover {
   border: 2px solid black;
   margin-block: 5%;
   margin-inline: 10%;
+
 }
 
 .articlehead {

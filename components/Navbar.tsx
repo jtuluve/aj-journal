@@ -8,7 +8,7 @@ const Navbar = () => {
     <div>
         <div className="head">
         <a className="goHome" href="index.html"></a>
-        <Image fill className="headbg" src="/ln1.jpg" alt="logo"/>
+        <img className="headbg" src="/ln1.jpg" alt="logo"/>
         <button className="register" >REGISTER/LOGIN</button>
         {/* <!-- Login Modal --> */}
         <div id="loginModal" className="modal">
@@ -22,9 +22,27 @@ const Navbar = () => {
                 <span className="close" >&times;</span>
                 <h1>The submission page here</h1>
             </div>
-        </div>
-           
+        </div>       
     </div>
+    <br/>      
+    <section className="menu">
+              <button className="btn">
+                  <a href="/">HOME</a>
+              </button>
+              <button className="btn">
+                  <a href="/archive">ARCHIVE</a>
+              </button>
+              <button className="btn">
+                  <a href="/about">ABOUT US</a>
+              </button>
+              <button className="btn">
+                  <a href="/editorial">EDITORIAL TEAM</a>
+              </button>
+              <button className="btn">
+                  <a href="/contact">CONTACT US</a>
+              </button>
+          </section>
+          <hr></hr>   
     </div>
   )
 }

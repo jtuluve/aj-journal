@@ -2,23 +2,6 @@ import '../styles/globals.css'
 const Main = () => {
   return (
     <>
-      <section className="menu">
-        <button className="btn">
-          <a href="/">HOME</a>
-        </button>
-        <button className="btn">
-          <a href="/archive">ARCHIVE</a>
-        </button>
-        <button className="btn">
-          <a href="/about">ABOUT US</a>
-        </button>
-        <button className="btn">
-          <a href="/editorial">EDITORIAL TEAM</a>
-        </button>
-        <button className="btn">
-          <a href="/contact">CONTACT US</a>
-        </button>
-      </section>
       <br></br>
       <div className="sub">
         <h3>Instructions</h3>
