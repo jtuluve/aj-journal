@@ -4,6 +4,7 @@ body {
   overflow-x: hidden;
   min-height: 100vh;
   background-image: linear-gradient(90deg, #9aabcf, #d0d2d4);
+  box-sizing: border-box;
 }
 
 br {
@@ -49,6 +50,9 @@ br {
     "item1 item2 item3 item4 item5 item6";
   gap: 10px;
   font-size: 20px;
+  width: 70%;
+  border: 3px solid black;
+  border-radius: 30px 30px 30px 30px;
   background-color: white;
 }
 .title {
@@ -121,11 +125,10 @@ button:hover {
 
 .sub {
   position: relative;
-  width: 30vw;
+  width: 28%;
   float: right;
   height: 40vh;
   display: flex;
-  margin-left: 10px;
   /* Keep this as it is */
   flex-direction: column;
   justify-content: space-around;
@@ -139,12 +142,11 @@ button:hover {
 
 .subm {
   position: relative;
-  width: 30vw;
+  width: 28%;
   height: fit-content;
   padding-top: 0.5%;
   display: flex;
   float: right;
-  margin-left: 10px;
   flex-direction: column;
   justify-content: space-around;
   /* border-radius: 30px 140px 0px 70px;
@@ -212,7 +214,7 @@ button:hover {
 }
 
 .about {
-  width: 100;
+  width:70%;
   height: 50vh;
   border: 3px solid black;
   font-size: 24px;
@@ -247,11 +249,11 @@ button:hover {
 .heading {
   grid-area: heading;
   height: 5vh;
+  border-bottom: 3px solid black;
   justify-content: center;
   display: flex;
   font-weight: bold;
   align-items: center;
-  border: 2px solid black;
 }
 
 .item1 {
@@ -280,7 +282,6 @@ button:hover {
 
 .item {
   height: 25vh;
-  border: 3px solid black;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -410,6 +411,7 @@ button:hover {
   margin-top: auto;
   /* padding-bottom: 1em;  */
   height: fit-content;
+  width: 100%;
 }
 
 .footer > div {

@@ -40,7 +40,6 @@ button:hover {
   display: flex;
   font-weight: bold;
   align-items: center;
-  border: 2px solid black;
 }
 
 .item1 {
@@ -252,7 +251,7 @@ button:hover {
   width: 50vw;
   height: 70vh;
   margin-block: 2%;
-  margin-inline: 10%;
+  margin-inline: 2%;
   text-align: center;
   border-radius: 20px;
   background-color: white;
@@ -264,7 +263,7 @@ button:hover {
   width: 50vw;
   border: 2px solid black;
   margin-block: 5%;
-  margin-inline: 10%;
+  margin-inline: 2%;
 
 }
 
