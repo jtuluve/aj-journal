@@ -33,7 +33,7 @@ const Navbar = () => {
                   <a href="/archive">ARCHIVE</a>
               </button>
               <button className="btn c">
-                  <a href="/about">ABOUT US</a>
+                  <a href="/about#aboutSection">ABOUT US</a>
               </button>
               <button className="btn d">
                   <a href="/editorial">EDITORIAL TEAM</a>
