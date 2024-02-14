@@ -1,0 +1,36 @@
+button {
+    margin: 8px;
+    color: black;
+    font-weight: bolder;
+    font-size: 16px;
+    background: none;
+    padding-inline: 10px;
+    padding-block: 15px;
+    border-radius: 10px;
+    border-top: none;
+    transition: 0.5s;
+}
+
+.aboutx {
+    width: 100;
+    min-height: 50vh;
+    height: max-content;
+    border: 3px solid black;
+    font-size: 24px;
+    text-align: center;
+    overflow: hidden;
+    border-radius: 30px;
+    background-color: white;
+    display: none;
+}
+
+.choose {
+    color: black;
+    font-style: bold;
+    font-size: 20px;
+    text-align: justify;
+    margin-left: 1%;
+}
+.aboutx:target {
+    display: block;
+}

@@ -21,10 +21,11 @@ const Main = () => {
           <div className="sub">
             <h3 className="ins">Instructions</h3>
             <div className="InsButtonGrid">
-              <a href="index.html#readers"><button className="sub-btn">FOR READERS</button></a>
-              <a href="index.html#authors"><button className="sub-btn"  value="readers">FOR
+              <a href="/instructions#readers"><button className="sub-btn">
+                FOR READERS</button></a>
+              <a href="/instructions#authors"><button className="sub-btn"  value="readers">FOR
                 AUTHORS</button></a>
-              <a href="index.html#librarian"><button className="sub-btn" >FOR
+              <a href="/instructions#librarians"><button className="sub-btn" >FOR
                 LIBRARIAN</button></a>
             </div>
           </div>

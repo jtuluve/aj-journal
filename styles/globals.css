@@ -132,11 +132,9 @@ button:hover {
 .sub {
   position: relative;
   width: 30vw;
-  /* float: right; */
   height: 40vh;
   display: flex;
   margin-left: 10px;
-  /* Keep this as it is */
   flex-direction: column;
   justify-content: space-around;
   border-radius: 30px;
@@ -596,8 +594,8 @@ button:hover {
 }
 
 a{
-      text-decoration: none;
-        color: #fff;
+  text-decoration: none;
+  color: #fff;
 }
 .contact-section {
   margin: 20px 0;
@@ -731,10 +729,6 @@ input[type="submit"] {
 
 .sbmbtn:hover::before {
   left: 100%;
-}
-
-.d:hover {
-  transform: scale(1.1);
 }
 
 .sbmtn:hover .sbmbtn:active {
