@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>AJIMS Journal</title>
     <link rel="stylesheet" href="style.css">
-</head> 
+</head>
+
 <body>
     <div class="head">
         <a class="goHome" href="index.html"></a>
@@ -15,9 +17,9 @@
         <div id="loginModal" class="modal">
             <div class="modal-content">
                 <span class="close" onclick="closeModal('loginModal')">&times;</span>
-                <embed type=text/html src="login.html"  width="100%" height="800em"></embed>
+                <embed type=text/html src="login.html" width="100%" height="800em"></embed>
             </div>
-        </div>        
+        </div>
         <!-- Submission Modal -->
         <div id="submitModal" class="modal">
             <div class="modal-content">
@@ -25,50 +27,64 @@
                 <h1>The submission page here</h1>
             </div>
         </div>
-           
+
     </div>
     <br>
     <section class="menu">
-        <button class="btn" onclick="goToHomePage()">HOME</button>
-        <button class="btn" onclick="openArchivePage()">ARCHIVE</button>
-        <button class="btn" onclick="openAboutUsModal()">ABOUT US</button>
-        <button class="btn" onclick="openEditorialTeamModal()">EDITORIAL TEAM</button>
-        <button class="btn" onclick="openContactUsModal()">CONTACT US</button>
+        <button class="btn a" onclick="goToHomePage()">HOME</button>
+        <button class="btn b" onclick="openArchivePage()">ARCHIVE</button>
+        <button class="btn c" onclick="openAboutUsModal()">ABOUT US</button>
+        <button class="btn d" onclick="openEditorialTeamModal()">EDITORIAL TEAM</button>
+        <button class="btn e" onclick="openContactUsModal()">CONTACT US</button>
     </section>
     <br>
     <hr>
-    <div class="sub">
-        <h3>Instructions</h3>
-        <a href="index.html#readers"><button class="sub-btn" onclick="RAL('readcls')">FOR READERS</button></a>
-        <a href="index.html#authors"><button class="sub-btn" onclick = "RAL('authcls')"  value = "readers">FOR AUTHORS</button></a>
-        <a href="index.html#librarian" ><button class="sub-btn" onclick = "RAL('libcls')">FOR LIBRARIAN</button></a>
+    <div class="mainAboutIns">
+        <div class="about">
+            <p>ABOUT THE JOURNAL</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque sequi quae, obcaecati quasi atque
+                consequuntur
+                culpa dolore beatae. Repellat modi veniam magnam animi dolorem optio ipsum cum, commodi dignissimos
+                exercitationem.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque sequi quae, obcaecati quasi atque
+                consequuntur
+                culpa dolore beatae. Repellat modi veniam magnam animi dolorem optio ipsum cum, commodi dignissimos
+                exercitationem.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque sequi quae, obcaecati quasi atque
+                consequuntur
+                culpa dolore beatae. Repellat modi veniam magnam animi dolorem.</p>
+        </div>
+        <div class="InsSub">
+            <div class="sub">
+                <h3 class="ins">Instructions</h3>
+                <div class="InsButtonGrid">
+                <a href="index.html#readers"><button class="sub-btn" onclick="RAL('readcls')">FOR READERS</button></a>
+                <a href="index.html#authors"><button class="sub-btn" onclick="RAL('authcls')" value="readers">FOR
+                        AUTHORS</button></a>
+                <a href="index.html#librarian"><button class="sub-btn" onclick="RAL('libcls')">FOR
+                        LIBRARIAN</button></a>
+                </div>
+            </div>
+
+            <div class="subm">
+                <div class="d">
+                    <button class="btn sbmbtn" onclick="openSubmitModal()">
+                        <p class="p">SUBMISSION</p>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="gcontainer">
+            <div class="heading">
+                <p>CURRENT ISSUE</p>
+            </div>
+            <div class="item item1">
+                <p>VOLUME NO # (YEAR)</p>
+            </div>
+        </div>
     </div>
-    
-    <div class="subm">
-        <div class="d">
-            <button class="btn sbmbtn" onclick="openSubmitModal()"><p class="p">SUBMISSION</p></button>
-        </div>
-        
-    </div>
-    <div class="about">
-        <p>ABOUT THE JOURNAL</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque sequi quae, obcaecati quasi atque consequuntur
-            culpa dolore beatae. Repellat modi veniam magnam animi dolorem optio ipsum cum, commodi dignissimos
-            exercitationem.</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque sequi quae, obcaecati quasi atque consequuntur
-            culpa dolore beatae. Repellat modi veniam magnam animi dolorem optio ipsum cum, commodi dignissimos
-            exercitationem.</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque sequi quae, obcaecati quasi atque consequuntur
-            culpa dolore beatae. Repellat modi veniam magnam animi dolorem.</p>
-    </div><br><br>
-    <div class="gcontainer">
-        <div class="heading">
-            <p>CURRENT ISSUE</p>
-        </div>
-        <div class="item item1">
-            <p>VOLUME NO # (YEAR)</p>
-        </div>
-    </div><br><br>
+    <br><br>
+    <br><br>
     <div class="article">
         <p class="articlehead">
             RESEARCH ARTICLES
@@ -96,27 +112,34 @@
         </div>
     </div>
     <br>
-   <footer class="about footer" id="contact">
+    <footer class="about footer" id="contact">
         <img src="logo.jpg" class="footer_logo">
-            <div>
-                <H1>CONTACTS </H1>
-                <ul>
-                    <li>DETAILES ABOUT CONTACT (NAME PLACE ETC....)</li>
-                    <li>MOBILE NO:#1234567890</li>
-                    <li>el ph no:#66725631</li>
-                </ul>
-            </div>       
-        <div><H1>FAQ</H1></div>
-        <div>
+        <div class="footerDiv">
+            <H1>CONTACTS </H1>
+            <ul>
+                <li>DETAILES ABOUT CONTACT (NAME PLACE ETC....)</li>
+                <li>MOBILE NO:#1234567890</li>
+                <li>el ph no:#66725631</li>
+            </ul>
+        </div>
+        <div class="footerDiv">
+            <H1>FAQ</H1>
+            <ul>
+                <li>HOW TO SUBMIT JOURNAL</li>
+                <li>RULES AND REGULATION</li>
+
+            </ul>
+        </div>
+        <div class="footerDiv">
             <h1> EMAIL </h1>
             <ul>
                 <li>ENQUIRY EMAIL: 123@gmal.com</li>
                 <li> SUBMISSION EMAIL: 123@gmal.com
                 </li>
             </ul>
-        </div> 
+        </div>
     </footer>
-    <script >
+    <script>
         function goToHomePage() {
             window.location.href = 'index.html';
         }
@@ -131,10 +154,10 @@
         }
         function closeModal(modalId) {
             document.getElementById(modalId).style.display = "none";
-            
+
         }
         function openAboutUsModal() {
-            window.location.href="aboutus.html";
+            window.location.href = "aboutus.html";
             showContactSection('general');
         }
         function openEditorialTeamModal() {
@@ -144,12 +167,13 @@
             window.location.href = 'contact.html';
         }
 
-        function RAL(x){
-        localStorage.setItem("cls",x);
-         window.location.href = "ReadAuthLib.html";
+        function RAL(x) {
+            localStorage.setItem("cls", x);
+            window.location.href = "ReadAuthLib.html";
         }
-        
+
         //
     </script>
 </body>
+
 </html>
