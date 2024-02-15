@@ -10,7 +10,12 @@ button {
     border-top: none;
     transition: 0.5s;
 }
-
+.options{
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+}
 .aboutx {
     width: 100;
     min-height: 50vh;

@@ -4,8 +4,7 @@ const About = () => {
     <div>
       {/* About Us Section */}
       <div>
-        <div>
-          <p className='choose'>Please choose a category:</p>
+        <div className='options'>
           <a href="#aboutSection"><button>Journal</button></a>
           <a href="#aimSection"><button>Aim &amp; Scope</button></a>
           <a href="#indexingSection"><button>Indexing</button></a>

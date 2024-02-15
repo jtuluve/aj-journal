@@ -2,7 +2,6 @@ import '../../styles/instructions.css'
 const Instructions = () => {
     return (
         <div>
-            <p>Please choose a category:</p>
             <a href='#readers'><button className="forReaders readcls">For Readers</button></a>
             <a href='#authors'><button className="forAuth authcls">For Authors</button></a>
             <a href='#librarians'><button className="forLib libcls">For Librarian</button></a>
