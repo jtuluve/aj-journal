@@ -132,7 +132,7 @@ button:hover {
 .sub {
   position: relative;
   width: 30vw;
-  height: 40vh;
+  height: 45vh;
   display: flex;
   margin-left: 10px;
   flex-direction: column;
