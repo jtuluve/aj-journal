@@ -3,7 +3,7 @@ body {
   height: 100vh;
   overflow-x: hidden;
   min-height: 100vh;
-  background-image: linear-gradient(90deg, #9aabcf, #d0d2d4);
+  background-image: linear-gradient(90deg, #e0eaff, #d0d2d4);
 }
 
 br {
