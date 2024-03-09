@@ -12,14 +12,16 @@
      padding: 0;
 
  }
-
-
+.container1contact{
+    width:95%;
+}
  .menu {
      /* margin: 20px 0; */
      padding: 10px;
      box-sizing: border-box;
      /* Other styles remain unchanged */
  }
+
 
  #contactUsContent {
      padding: 20px;
@@ -28,17 +30,32 @@
  .contact-section {
      margin-bottom: 30px;
      padding: 20px;
+     background:rgb(246, 246, 246);
      border: 2px solid #ccc;
      border-radius: 10px;
  }
 
+ .contactf{
+    background-image: linear-gradient(90deg, #f3f5f8, #ebf4fd);
+
+ }
+
+ .maps{
+
+    background-color: #cccccc00;
+ }
  .form_iframe {
      display: flex;
      gap: 20px;
      margin-bottom: 30px;
      padding: 20px;
-     border: 2px solid #ccc;
-     border-radius: 10px;
+     border-block: 2px solid #ccc;
+     /* border-radius: 10px; */
+     background:rgba(247, 247, 247, 0);
+ }
+ #contactUsContent>h1{
+    text-align:center;
+    padding-bottom:2rem;
  }
 
  footer {

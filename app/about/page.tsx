@@ -1,20 +1,19 @@
 import '../../styles/aboutus.css'
 const About = () => {
   return (
-    <div>
+    <div className="abJ">
       {/* About Us Section */}
-      <div>
+      <div className="containerab">
         <div className='options'>
-          <a href="#aboutSection"><button>Journal</button></a>
-          <a href="#aimSection"><button>Aim &amp; Scope</button></a>
-          <a href="#indexingSection"><button>Indexing</button></a>
-          <a href="#peerSection"><button>Peer reviewing process</button></a>
-          <a href="#licenceSection"><button>Licencing &amp; Copyright Policy</button></a>
-          <a href="#AJIMSRCSection"><button>AJIMS Research Center</button></a>
-          <a href="#disclaimerSection"><button>Disclaimer</button></a>
+          <a href="#aboutSection"><button className="abB">Journal</button></a>
+          <a href="#indexingSection"><button className="abB">Indexing</button></a>
+          <a href="#aimSection"><button className="abB">Aim &amp; Scope</button></a>
+          <a href="#disclaimerSection"><button className="abB">Disclaimer</button></a>
+          <a href="#AJIMSRCSection"><button className="abB">AJIMS Research Center</button></a>
+          <a href="#peerSection"><button className="abB">Peer reviewing process</button></a>
+          <a href="#licenceSection"><button className="abB">Licencing &amp; Copyright Policy</button></a>
         </div>
-        <br/>
-        <br/>
+       
         {/* Content for different sections */}
         <div id="aboutSection" className="aboutx">
           <h2>About the Journal</h2>
@@ -26,7 +25,7 @@ const About = () => {
             exercitationem.</p>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque sequi quae, obcaecati quasi atque consequuntur
             culpa dolore beatae. Repellat modi veniam magnam animi dolorem.</p>
-        </div><br /><br />
+        </div>
         <div id="aimSection" className="aboutx">
           <h2>Aim &amp; Scope</h2>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque sequi quae, obcaecati quasi atque consequuntur

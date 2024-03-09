@@ -2,10 +2,10 @@ import '../../styles/archive.css'
 
 const Archive = () => {
   return (
-    <div>
+    <div className="container1archieve">
       <div className="gcontainerz">
         <div className="headingz">
-          <p>ARCHIVES</p>
+          <u><p>ARCHIVES</p></u>
         </div>
         <div className="item item1z">
           <p>VOLUME NO # (YEAR)</p>
@@ -31,10 +31,10 @@ const Archive = () => {
         <h1>VOLUME NO #<br /> (YEAR)</h1>
         <h1>(FRONT VIEW AND DETAILS ABOUT THE VOLUME)</h1>
       </div>
-      <div className="articlez">
-        <p className="articleheadz">
+      <div className="articlez articlezArch">
+        <u><p className="articleheadz">
           RESEARCH ARTICLES
-        </p>
+        </p></u>
         <div className="articleitemz">
           <a href="#">article title 1 link</a>
           <br />

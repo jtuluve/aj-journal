@@ -1,13 +1,13 @@
 import '../styles/globals.css'
 const Main = () => {
   return (
-    <div>
+    <div className="abCur">
       <div className="mainAboutIns">
         <div className="about">
-          <p>ABOUT THE JOURNAL</p>
+          <b><p>ABOUT THE JOURNAL</p></b>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque sequi quae, obcaecati quasi atque
             consequuntur
-            culpa dolore beatae. Repellat modi veniam magnam animi dolorem optio ipsum cum, commodi dignissimos
+         g   culpa dolore beatae. Repellat modi veniam magnam animi dolorem optio ipsum cum, commodi dignissimos
             exercitationem.</p>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque sequi quae, obcaecati quasi atque
             consequuntur
@@ -19,7 +19,7 @@ const Main = () => {
         </div>
         <div className="InsSub">
           <div className="sub">
-            <h3 className="ins">Instructions</h3>
+            <u><h3 className="ins">Instructions</h3></u>
             <div className="InsButtonGrid">
               <a href="/instructions#readers"><button className="sub-btn">
                 FOR READERS</button></a>
@@ -39,9 +39,18 @@ const Main = () => {
         </div>
         <div className="gcontainer">
           <div className="heading">
-            <p>CURRENT ISSUE</p>
+            <u><p>CURRENT ISSUE</p></u>
           </div>
           <div className="item item1">
+            <p>VOLUME NO # (YEAR)</p>
+          </div>
+          <div className="item item2">
+            <p>VOLUME NO # (YEAR)</p>
+          </div>
+          <div className="item item3">
+            <p>VOLUME NO # (YEAR)</p>
+          </div>
+          <div className="item item4">
             <p>VOLUME NO # (YEAR)</p>
           </div>
         </div>
@@ -49,9 +58,9 @@ const Main = () => {
       <br /><br />
       <br /><br />
       <div className="article">
-        <p className="articlehead">
+        <u><p className="articlehead">
           RESEARCH ARTICLES
-        </p>
+        </p></u>
         <div className="articleitem">
           <a href="#">article title 1 link</a>
           <br />
