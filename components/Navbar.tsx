@@ -5,7 +5,7 @@ import Image from 'next/image';
 
 const Navbar = () => {
   return (
-    <div>
+    <div className="headT">
         <div className="head">
         <a className="goHome" href="/"></a>
         <img className="headbg" src="/headding.png" alt="logo"/>
@@ -26,21 +26,21 @@ const Navbar = () => {
     </div>
     <br/>      
     <section className="menu">
-              <button className="btn a">
-                  <a href="/">HOME</a>
-              </button>
-              <button className="btn b">
-                  <a href="/archive">ARCHIVE</a>
-              </button>
-              <button className="btn c">
-                  <a href="/about#aboutSection">ABOUT US</a>
-              </button>
-              <button className="btn d">
-                  <a href="/editorial">EDITORIAL TEAM</a>
-              </button>
-              <button className="btn e">
-                  <a href="/contact">CONTACT US</a>
-              </button>
+              
+                  <a href="/" className="btn a">HOME</a>
+              
+             
+                  <a href="/archive" className="btn b">ARCHIVE</a>
+              
+              
+                  <a href="/about#aboutSection" className="btn c">ABOUT US</a>
+              
+             
+                  <a href="/editorial" className="btn d">EDITORIAL TEAM</a>
+              
+              
+                  <a href="/contact" className="btn e">CONTACT US</a>
+             
           </section>
           <br />
           <hr/> 

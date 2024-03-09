@@ -1,7 +1,7 @@
 import '../../styles/instructions.css'
 const Instructions = () => {
     return (
-        <div>
+        <div className="instructionDiv">
             <a href='#readers'><button className="forReaders readcls">For Readers</button></a>
             <a href='#authors'><button className="forAuth authcls">For Authors</button></a>
             <a href='#librarians'><button className="forLib libcls">For Librarian</button></a>
