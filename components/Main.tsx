@@ -37,6 +37,7 @@ const Main = () => {
             </div>
           </div>
         </div>
+        <hr/>
         <div className="gcontainer">
           <div className="heading">
             <u><p>CURRENT ISSUE</p></u>

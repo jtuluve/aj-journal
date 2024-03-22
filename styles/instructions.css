@@ -1,5 +1,9 @@
+*{
+    scroll-padding-top:100vh;
+}
+p{text-align:justify;}
 .ins {
-    width: 100;
+   
     min-height: 50vh;
     margin-top:1rem;
     height: max-content;
@@ -11,6 +15,7 @@
     border-radius: 30px;
     background-color: white;
     display: none;
+    padding-inline: 1.8rem;
 }
 .instructionDiv{
     padding:1rem;
@@ -36,4 +41,47 @@ button {
 button:hover {
     box-sizing: border-box;
     box-shadow: 4px 3px white;
+}
+@media(max-width:500px){
+    .ins{
+        
+            width: 100%;
+            box-sizing: border-box;
+            /* height: 55vh; */
+            padding: 1.2rem 2.4rem;
+            border: 2px solid #ccc;
+            font-size: 24px;
+            text-align: center;
+            overflow: hidden;
+            border-radius: 30px;
+            background-color: #ffffff69;
+            font-size: 1rem;
+    padding: 1.2rem 1.8rem;
+        
+    }
+    .instructionDiv {  display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 0px 0px;
+        grid-auto-flow: row;
+        grid-template-areas:
+          "ia ib ic"
+          "id id id";
+          place-items:center
+      }
+      
+      .ia { grid-area: ia; }
+      
+      .ib { grid-area: ib; }
+      
+      .ic { grid-area: ic; }
+      
+      .id { grid-area: id; }
+
+      .insb{
+        margin:0;
+        margin-bottom:8px;
+        padding-inline: 10px;
+        padding-block:11px;
+      }
+      
 }

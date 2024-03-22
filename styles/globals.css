@@ -12,6 +12,7 @@ body {
   min-height: 100vh;
   background-image: linear-gradient(90deg, #f3f5f8, #ebf4fd);
 }
+
 .headT{
   width:98vw;
 }
@@ -184,7 +185,9 @@ b~p{
 .ins {
   font-size: 30px;
 }
-
+.mainAboutIns>hr{
+  display:none;
+}
 .subm {
   position: relative;
   width: 30vw;
@@ -541,10 +544,50 @@ button .sub-btn{
 }
 
 @media(max-width:500px) {
-  body {
-    width: 98vw;
+  body{
+    width:100vw;
     overflow-x: hidden;
-    margin-left: 1px;
+  }
+  .editorialTeam>h1{
+    font-size: 1.5rem;
+  }
+  .gcontainer{
+    font-size:0.5rem;
+    padding-left:0.5rem;
+    margin-top:21px;
+    grid-template-areas: ". heading heading heading heading. "
+                          "item1 item1 item2 item2 item3 item3";
+    border-radius:8px;
+     padding-inline:0px; 
+     place-items: center;
+  }
+  .article>u>p {
+    margin-top: 0;
+    font-size: 21px;
+}
+.articleitem{
+  margin-bottom: 3rem;
+}
+
+  .heading>u>p{
+    font-size:20px;
+  }
+  .mainAboutIns>hr{
+    display: block;
+    position: relative;
+    width: 100vw;
+    left: -14px;
+  }
+  .item{
+    width: 6rem;
+    height: 6rem;
+    margin-left:0px;
+  }
+  .item4{
+    display: none;
+  }
+  .headT{
+    width:100vw;
   }
 
   .head {
@@ -570,9 +613,9 @@ button .sub-btn{
   }
 
   .sub-btn {
-    font-size: 12px;
+    font-size: 0.7rem;
     padding-inline: 10px;
-    padding-block: 5px;
+    padding-block: 11px;
   }
 
   .subm {
@@ -585,7 +628,7 @@ button .sub-btn{
     margin: 8px;
     padding: 10px;
     font-size: 7px;
-    margin-left: -2px;
+    margin-left: -7px;
   }
 
   .InsButtonGrid {
@@ -595,63 +638,59 @@ button .sub-btn{
     row-gap: 0;
   }
 
-  .ins {
-    font-size: 20px;
-    
-  }
+  
 
   .mainAboutIns {
     display: block;
   }
 
   .InsSub {
-    margin-top: 4px;
+    margin-top: 21px;
+    margin-left:0px;
   }
+.menu>.btn{
+  font-size: 0.5rem;
+  width:7rem;
 
-  /* .menu {
+}
+  .menu { 
+   align-items: center;
+   place-items: center;
+   border-radius: 9px;
+    padding-inline:23px;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1.1fr [b] 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
     gap: 0px 0px;
     grid-auto-flow: row;
     grid-template-areas:
       "a a b b c c"
-      ". d d e e .";
-    border-radius: 10px;
+      ". e e d d .";
   }
-
-  .a {
-    grid-area: a;
+  
+  .a { grid-area: a; }
+  
+  .b { grid-area: b; 
+    padding-inline:0px;    
   }
-
-  .b {
-    grid-area: b;
+  
+  .c { grid-area: c; }
+  
+  .d { grid-area: d; }
+  
+  .e { grid-area: e; }
+  .about>b>p{
+    font-size:20px;
   }
-
-  .c {
-    grid-area: c;
+  .about{
+    font-size: 1rem;
+    padding: 1.2rem 1.8rem;
   }
-
-  .d {
-    grid-area: d;
-  }
-
-  .e {
-    grid-area: e;
-  } */
-
-  /* .menu .btn {
-    font-size: 12px;
-    padding-inline: 2px;
-    text-decoration: none;
-    color: #fff;
-    
-  } */
-
   .sub {
     margin: 0px;
     margin-top: 5px;
     border-radius: 15px;
+    padding-bottom:1rem;
     width: 100%;
     height: 100%;
     
@@ -659,10 +698,11 @@ button .sub-btn{
  
 
   .ins {
+    font-size: 20px;
     padding-bottom: 100%;
     margin: 0px;
     padding-block: 8px;
-    border-bottom: 2px solid black;
+    
   }
 }
 
@@ -812,3 +852,5 @@ input[type="submit"] {
 .sbmtn:hover .sbmbtn:active {
   border: none;
 }
+
+

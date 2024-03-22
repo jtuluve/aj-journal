@@ -1,3 +1,6 @@
+*{
+     scroll-padding-top: 100vh; 
+}
 .abB {
     margin: 8px;
     color: black;
@@ -60,4 +63,56 @@ body{
 }
 hr{
     margin-bottom:1rem;
+}
+@media(max-width:500px){
+    .options {  display: grid;
+        grid-template-columns: 1fr 1fr 1.1fr [b] 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        gap: 0px 0px;
+        grid-auto-flow: row;
+        grid-template-areas:
+          "aa aa ab ab ac ac"
+          "ag ag ae ae af af"
+          ". ad ad ad ad .";
+      }
+      
+      .aa { grid-area: aa; }
+      
+      .ab { grid-area: ab; }
+      
+      .ac { grid-area: ac; }
+      
+      .ad { grid-area: ad; }
+      
+      .ae { grid-area: ae; }
+      
+      .af { grid-area: af; }
+      
+      .ag { grid-area: ag; }
+
+      .abB{
+        font-size: 0.7rem;
+        padding: 0;
+        width: 90%;
+        /* margin: 5px; */
+        height: 37px;
+      }
+
+      .aboutx{
+        width: 100%;
+    box-sizing: border-box;
+    /* height: 55vh; */
+    min-height: fit-content;
+    font-size: 1rem;
+    padding: 1.2rem 1.8rem;
+    border: 2px solid #ccc;
+    text-align: center;
+    overflow: hidden;
+    border-radius: 30px;
+    background-color: #ffffff69;
+      }
+      .aboutx>b>p{
+        font-size: 20px;
+      }
+      
 }
