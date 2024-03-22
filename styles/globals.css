@@ -651,7 +651,7 @@ button .sub-btn{
 .menu>.btn{
   font-size: 0.5rem;
   width:7rem;
-
+  padding-inline:0px;
 }
   .menu { 
    align-items: center;
@@ -821,6 +821,7 @@ input[type="submit"] {
 
 .d {
   overflow: hidden;
+  
   border-radius: 10px;
   height: fit-content;
   width: fit-content;
