@@ -5,7 +5,7 @@ const Archive = () => {
     <div className="container1archieve">
       <div className="gcontainerz">
         <div className="headingz">
-          <u><p>ARCHIVES</p></u>
+          <p>ARCHIVES</p>
         </div>
         <div className="item item1z">
           <p>VOLUME NO # (YEAR)</p>

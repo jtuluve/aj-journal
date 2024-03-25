@@ -10,9 +10,9 @@ const Footer = () => {
                 <div className="footerDiv">
             <h1>CONTACTS </h1>
             <ul>
-                <li>DETAILES ABOUT CONTACT (NAME PLACE ETC....)</li>
-                <li>MOBILE NO:#1234567890</li>
-                <li>el ph no:#66725631</li>
+                <li>DETAILES ABOUT CONTACT(NAME PLACE ETC...)</li>
+                <li>MOBILE NO : #1234567890</li>
+                <li>el ph no : #66725631</li>
             </ul>
         </div>
         <div className="footerDiv">

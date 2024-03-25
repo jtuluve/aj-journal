@@ -1,16 +1,18 @@
 /* ... (rest of your CSS remains unchanged) */
 .menu {
     width: 100%;
-    height: 5vh;
+    height: fit-content;
     text-align: center;
     display: flex;
-    justify-content: left;
+    grid-template-columns: repeat(5,1fr);
     align-items: center;
     border: 2px solid black;
     border-radius: 40px;
     border-top: none;
     overflow: hidden;
-    background-color: #1b2233
+    background-color: #1b2233;
+    flex-wrap: wrap;
+    gap: 10px;
 }
 
 body {
@@ -32,7 +34,7 @@ br {
     grid-template-columns: 80% auto;
     place-items: center;
     width: 100%;
-    height: 18vh;
+    height: fit-content;
     top: 0.2vw;
     color: white;
     border: 2px solid black;
@@ -72,14 +74,14 @@ br {
 
 .menu .btn {
     color: white;
-    min-width: 6vw;
+    /* min-width: 6vw; */
     min-height: 3vh;
     font-weight: bolder;
     font-size: 14px;
     background: none;
     padding-inline: 6px;
     padding-block: 6px;
-    margin-inline: 40px;
+    /* margin-inline: 40px; */
     border-radius: 10px;
     border-top: none;
 }
@@ -105,9 +107,9 @@ button {
 }
 
 .register {
+    border:solid 2px rgba(255, 255, 255, 0.404);
     color: white;
-    float: right;
-    right: 20px;
+    font-size:1vw;
 }
 
 button:hover {
@@ -259,6 +261,7 @@ button:hover {
     justify-content: center;
     align-items: center;
     font-weight: bold;
+    text-align: center;
 }
 
 .gcontainer {
@@ -433,25 +436,7 @@ button:hover {
     width: 130px;
     object-fit: contain;
 }
-@media(max-width:500px){
-    .footer{
-        display:flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items:center;
-        height:fit-content;
-    }
-    .footer_logo{
-        padding-top:5%;
-       width:30% 
-    }
-    .footer>div>ul>li{
-         text-align: left; 
-    }
-    .footerDiv{
-        width:80%;
-    }
-}
+
 
 .currentArchive {
     width: 50vw;
@@ -480,4 +465,122 @@ button:hover {
     border: 2px solid black;
     margin: 5px;
     font-size: 20px;
+}
+@media(max-width:500px){
+    body{
+        width:98vw;
+        overflow-x: hidden;
+        margin-left: 1px;
+    }
+    .head{
+        border-radius: 0%;
+    }
+    .footer{
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items:center;
+        height:fit-content;
+    }
+    .footer_logo{
+        padding-top:5%;
+       width:30% 
+    }
+    .footerDiv{
+        width:80%;
+        text-align: center;
+    }
+    .footerDiv>ul{
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+        text-align: center;
+    }
+    .footerDiv>ul>li{
+        text-align: center;
+        display:inline-block;
+        margin: 0 10px;
+    }
+    .register {
+        margin: 8px;
+        padding: 10px;
+        font-size:7px;
+        margin-left: -2px;
+    }
+    .menu {  display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        gap: 0px 0px;
+        grid-auto-flow: row;
+        grid-template-areas:
+          "a a b b c c"
+          ". d d e e .";
+          border-radius:10px;
+      }
+      .a { grid-area: a; }
+      
+      .b { grid-area: b; }
+      
+      .c { grid-area: c; }
+      
+      .d { grid-area: d; }
+      
+      .e { grid-area: e; }
+    .menu .btn{
+        font-size: 12px;
+        padding-inline: 2px;
+    }
+    .gcontainer {
+        display: row;
+        grid-template-areas:
+            "heading heading heading heading heading heading"
+            "item1 item2 item3 item4 item5 item6";
+        gap: 10px;
+        font-size: 20px;
+        float: right;
+        width: 15vh;
+        background-color: white;
+        margin-right: 1vh;
+    }
+    .item{
+        height:15vh;
+    }
+    .currentArchive {
+        width: 50vw;
+        height: 25vh;
+        margin-block: 5%;
+        margin-inline: 5%;
+        text-align: center;
+        border-radius: 20px;
+        border: 2px solid black;
+    }
+    .currentArchive>h1{
+        font-size:20px;
+    }
+    .article {
+        font-size: 20px;
+        width: 50vw;
+        border: 2px solid black;
+        margin-block: 10%;
+        margin-inline: 5%;
+        padding:2%;
+    }
+    .articlehead {
+        text-align: center;
+        margin-block:5%;
+    } 
+    .articleitem {
+        border: 2px solid black;
+        margin: 5px;
+        font-size: 16px;
+        text-align: center;
+    }
+    .articleitem>p{
+        margin-block:5%;
+    }
+    .articleitem>button{
+        padding:5px;
+        font-size: 13px;
+        margin-inline:auto;
+    }
 }

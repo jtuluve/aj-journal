@@ -548,6 +548,10 @@ button .sub-btn{
     width:100vw;
     overflow-x: hidden;
   }
+  .menu .btn {
+    font-size: 5px;
+    padding-inline: 2px;
+  }
   .editorialTeam>h1{
     font-size: 1.5rem;
   }
@@ -594,23 +598,42 @@ button .sub-btn{
     border-radius: 0%;
   }
 
-  .footer {
-    display: flex;
+  .footer{
+    display:flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
-    height: fit-content;
+    align-items:center;
+    height:fit-content;
 
-  }
-
-  .footer_logo {
-    padding-top: 5%;
-    width: 30%
-  }
-
-  .footerDiv {
-    width: 80%;
-  }
+}
+.footer_logo{
+    padding-top:5%;
+   width:30% 
+}
+.footerDiv{
+    width:80%;
+    text-align: center;
+    padding:0;
+}
+.footer_logo{
+  margin:0;
+}
+.footerDiv>ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+.footer>div>h1 {
+  color: white;
+  padding-left: 0px;
+  font-size: 90%;
+}
+.footerDiv>ul>li{
+    text-align: center;
+    display:inline-block;
+    margin: 0 10px;
+}
 
   .sub-btn {
     font-size: 0.7rem;
