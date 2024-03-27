@@ -17,6 +17,7 @@ body {
   width:98vw;
 }
 hr{
+  width:100%;
   margin-bottom:1rem;
 }
 
@@ -519,8 +520,9 @@ button .sub-btn{
 }
 
 .footer>div>ul>li {
+  font-family: 'Times New Roman', Times, serif;
   line-height: 2;
-  text-align: left;
+  text-align: center;
   list-style: inside;
   color: white;
   font-size: small;
@@ -680,7 +682,7 @@ button .sub-btn{
    align-items: center;
    place-items: center;
    border-radius: 9px;
-    padding-inline:23px;
+    padding-inline:0px;
     display: grid;
     grid-template-columns: 1fr 1fr 1.1fr [b] 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
