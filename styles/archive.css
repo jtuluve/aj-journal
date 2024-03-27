@@ -1,6 +1,5 @@
 .currentArchivez {
   height: 80vh;
-  /* margin-top: 0; */
   margin-block: 2%;
   margin-top: 0;
   text-align: center;
@@ -15,7 +14,7 @@
   border: 2px solid black;
   margin-block: 5%;
   margin-inline: 5%;
-margin-block:5%;
+  margin-block:5%;
 }
 .articlez, .currentArchivez {
   width: 50vw;
@@ -138,69 +137,6 @@ padding-top:0;
   margin-top:0;
 }
 @media(max-width:500px) {
-  body{
-    width:98vw;
-    overflow-x: hidden;
-    margin-left: 1px;
-}
-.head{
-    border-radius: 0%;
-}
-.footer{
-    display:flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items:center;
-    height:fit-content;
-}
-.footer_logo{
-    padding-top:5%;
-   width:30% 
-}
-.footerDiv{
-    width:80%;
-    text-align: center;
-}
-.footerDiv>ul{
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-    text-align: center;
-}
-.footerDiv>ul>li{
-    text-align: center;
-    display:inline-block;
-    margin: 0 10px;
-}
-.register {
-    margin: 8px;
-    padding: 10px;
-    font-size:7px;
-    margin-left: -2px;
-}
-.menu {  display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-    gap: 0px 0px;
-    grid-auto-flow: row;
-    grid-template-areas:
-      "a a b b c c"
-      ". e e d d .";
-      border-radius:10px;
-  }
-  .a { grid-area: a; }
-  
-  .b { grid-area: b; }
-  
-  .c { grid-area: c; }
-  
-  .d { grid-area: d; }
-  
-  .e { grid-area: e; }
-/* .menu .btn{
-    font-size: px;
-    padding-inline: 2px;
-} */
 .gcontainerz{
     display: row;
     grid-template-areas:
@@ -208,7 +144,6 @@ padding-top:0;
         "item1 item2 item3 item4 item5 item6";
     gap: 0px;
     font-size: 15px;
-    float: right;
     width: 15vh;
     margin:0;
     background-color: white;
@@ -301,4 +236,125 @@ padding-top:0;
   font-size:20px;
   margin-block:10px;
 }
+}
+@media(max-width:500px){
+    body{
+        width:98vw;
+        overflow-x: hidden;
+        margin-left: 1px;
+    }
+    .head{
+        border-radius: 0%;
+    }
+    .footer{
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items:center;
+        height:fit-content;
+    }
+    .footer_logo{
+        padding-top:5%;
+       width:30% 
+    }
+    .footerDiv{
+        width:80%;
+        text-align: center;
+    }
+    .footerDiv>ul{
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+        text-align: center;
+    }
+    .footerDiv>ul>li{
+        text-align: center;
+        display:inline-block;
+        margin: 0 10px;
+    }
+    .register {
+        margin: 8px;
+        padding: 10px;
+        font-size:7px;
+        margin-left: -2px;
+    }
+    .menu {  display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        gap: 0px 0px;
+        grid-auto-flow: row;
+        grid-template-areas:
+          "a a b b c c"
+          ". d d e e .";
+          border-radius:10px;
+      }
+      .a { grid-area: a; }
+      
+      .b { grid-area: b; }
+      
+      .c { grid-area: c; }
+      
+      .d { grid-area: d; }
+      
+      .e { grid-area: e; }
+    .menu .btn{
+        font-size: 12px;
+        padding-inline: 2px;
+    }
+.gcontainerz {
+    position: relative;
+    display: grid;
+    grid-template-areas:
+        "heading" 
+        "item1 item2 item3 item4 item5 item6";
+    gap: 1px;
+    font-size: 20px;
+    width: 100%; /* Corrected width */
+    background-color: white;
+    margin-right: 1vh;
+}
+
+    .item{
+        height:15vh;
+    }
+    .currentArchivez {
+      display: block;
+      position: relative;
+        width:100%;
+        height: 60vh;
+        margin-block: 5%;
+        margin-inline: 5%;
+        text-align: center;
+        border-radius: 20px;
+        border: 2px solid black;
+    }
+    .currentArchive>h1{
+        font-size:20px;
+    }
+    .article {
+        font-size: 20px;
+        width: 50vw;
+        border: 2px solid black;
+        margin-block: 10%;
+        margin-inline: 5%;
+        padding:2%;
+    }
+    .articlehead {
+        text-align: center;
+        margin-block:5%;
+    } 
+    .articleitem {
+        border: 2px solid black;
+        margin: 5px;
+        font-size: 16px;
+        text-align: center;
+    }
+    .articleitem>p{
+        margin-block:5%;
+    }
+    .articleitem>button{
+        padding:5px;
+        font-size: 13px;
+        margin-inline:auto;
+    }
 }
