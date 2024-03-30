@@ -82,7 +82,6 @@ br {
 
 .menu .btn {
     color: white;
-    /* min-width: 6vw; */
     min-height: 3vh;
     font-weight: bolder;
     font-size: 14px;
@@ -128,11 +127,9 @@ button:hover {
 .sub {
     position: relative;
     width: 30vw;
-    /* float: right; */
     height: 40vh;
     display: flex;
     margin-left: 10px;
-    /* Keep this as it is */
     flex-direction: column;
     justify-content: space-around;
     border-radius: 30px;
@@ -158,13 +155,9 @@ button:hover {
     height: fit-content;
     padding-top: 0.5%;
     display: flex;
-    /* float: right; */
     margin-left: 10px;
     flex-direction: column;
     justify-content: space-around;
-    /* border-radius: 30px 140px 0px 70px;
-    border: 3px inset black; */
-    /* border-top: none; */
     border: none;
     overflow: hidden;
     align-items: center;
@@ -425,15 +418,12 @@ button:hover {
     background-image: linear-gradient(60deg, rgb(0, 0, 0), rgba(0, 0, 0, 0.815), rgb(0, 0, 0));
     backdrop-filter: blur(5px);
     display: flex;
-    /* height:auto; */
     flex-direction: row;
     justify-content: space-evenly;
     gap: 15px;
     border-radius: 10px 10px 0px 0px; 
-    /* flex-wrap: wrap; */
     bottom: 0px;
     margin-top: auto;
-    /* padding-bottom: 1em;  */
     height: fit-content;
     width:100%;
 }
@@ -457,11 +447,9 @@ button:hover {
 }
 
 .footer_logo {
-    /* transform:translate(0%,-20%); */
     padding-block: 2%;
     padding-left: 1%;
     border: none;
-    /* width: 130px; */
     width:10%;
     object-fit: contain;
 }
@@ -490,18 +478,6 @@ button:hover {
     }
     .footerDiv{
         width:80%;
-        text-align: center;
-    }
-    .footerDiv>ul{
-        list-style-type: none;
-        padding: 0;
-        margin: 0;
-        text-align: center;
-    }
-    .footerDiv>ul>li{
-        text-align: center;
-        display:inline-block;
-        margin: 0 10px;
     }
     .sub-btn{
         font-size: 12px;

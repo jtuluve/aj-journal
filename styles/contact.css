@@ -16,13 +16,9 @@
     width:95%;
 }
  .menu {
-     /* margin: 20px 0; */
-       
+     padding: 10px;
      box-sizing: border-box;
-     /* Other styles remain unchanged */
  }
- 
-
 
 
  #contactUsContent {
@@ -52,7 +48,6 @@
      margin-bottom: 30px;
      padding: 20px;
      border-block: 2px solid #ccc;
-     /* border-radius: 10px; */
      background:rgba(247, 247, 247, 0);
  }
  #contactUsContent>h1{
@@ -63,10 +58,6 @@
  footer {
      padding: 20px;
  }
-
- /* Add more specific styling as needed */
-
- /* Responsive styling example */
  @media (max-width: 768px) {
      .form_iframe {
          flex-direction: column;
