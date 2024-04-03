@@ -128,12 +128,9 @@
                 i=3;
             }
             console.log(i);
-        
-    // Set the initial display style for the default section (e.g., 'general')
     showContactSection(cls+`${i}`);
         
         function goToHomePage() {
-            // Replace 'index.html' with the actual path to your home page
             window.location.href = 'index.html';
         }
 
@@ -146,13 +143,9 @@
         };
         
         function showContactSection(name) {
-            // Hide all sections
-           
             document.querySelector(".authors").style.display = "none";
             document.querySelector(".readers").style.display = "none";
             document.querySelector(".librarians").style.display = "none";
-
-            // Show the selected section
             
             document.querySelector('.'+name).style.display = "block";
 

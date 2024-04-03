@@ -101,7 +101,6 @@
     </footer>
     <script>
         function goToHomePage() {
-            // Replace 'index.html' with the actual path to your home page
             window.location.href = 'index.html';
         }
 
@@ -114,13 +113,10 @@
         };
         
         function showContactSection(sectionId) {
-            // Hide all sections
             document.getElementById("generalSection").style.display = "none";
             document.getElementById("submissionSection").style.display = "none";
             document.getElementById("editorialSection").style.display = "none";
             document.getElementById("technicalSection").style.display = "none";
-
-            // Show the selected section
             
             document.getElementById(sectionId + "Section").style.display = "block";
         }

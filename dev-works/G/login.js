@@ -15,8 +15,6 @@ tologin.addEventListener('click',function(){
     setTimeout(regdisplaynone,450);
 })
 function rotation(){
-    //login_in.style.transition = `1.5s`;
-    //register.style.transition = `1.5s`;
     x+=180;
     x= (x==360)?0:x;
     y+=180;
