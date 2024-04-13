@@ -12,9 +12,11 @@
     background-color: white;
     display: none;
 }
+
 .instructionDiv{
     padding:1rem;
 }
+
 .ins:target {
     display: block;
 }

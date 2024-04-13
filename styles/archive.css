@@ -8,32 +8,36 @@
   border: 2px solid #ccc;
   background-color: #ffffff69;
 }
+
 .articlez {
   font-size: 25px;
   width: 50vw;
   border: 2px solid black;
   margin-block: 5%;
   margin-inline: 5%;
-margin-block:5%;
+  margin-block:5%;
 }
+
 .articlez, .currentArchivez {
   width: 50vw;
   margin-inline: 5%;
 }
+
 .container1archieve{
   width:95vw;
 }
 
 .articleheadz {
-  text-align: center;
-  
+  text-align: center; 
 }
+
 .articleitemz {
   border: 2px solid black;
   margin: 5px;
   font-size: 20px;
   border-bottom: 10px;
 }
+
 .headingz {
   grid-area: heading;
   height: 5vh;
@@ -43,9 +47,11 @@ margin-block:5%;
   font-weight: bold;
   align-items: center;
 }
+
 .gcontainerz>div{
   margin-bottom:3rem;
 }
+
 .gcontainerz {
   padding:2rem;
   width: 30vw;
@@ -57,43 +63,49 @@ margin-block:5%;
   background-color: #ffffff;
   margin-bottom: 10px;
 }
+
 .item1z {
   grid-area: item1;
   margin: 5px;
   margin-left: 15px;
   margin-bottom: 10px;
 }
+
 .item2z {
   grid-area: item2;
   margin: 5px;
   margin-left: 15px;
   margin-bottom: 10px;
-
 }
+
 .item3z {
   grid-area: item3;
   margin: 5px;
   margin-left: 15px;
   margin-bottom: 10px;
 }
+
 .item4z {
   grid-area: item4;
   margin: 5px;
   margin-left: 15px;
   margin-bottom: 10px;
 }
+
 .item5z {
   grid-area: item5;
   margin: 5px;
   margin-left: 15px;
   margin-bottom: 10px;
 }
+
 .item6z {
   grid-area: item6;
   margin: 5px;
   margin-left: 15px;
   margin-bottom: 10px;
 }
+
 .itemz {
   height: 30vh;
   border: 3px solid black;
@@ -102,40 +114,46 @@ margin-block:5%;
   align-items: center;
   font-weight: bold;
 }
+
 .articlez {
   font-size: 25px;
   background-color: white;
   border-radius: 20px;
 }
+
 .articlezArch{
   border:none;
   background-color: #ffffff69;;
- padding-block:1rem; 
- border: 2px solid #ccc;
- display:grid;
- place-items: center;
- gap:1rem;
+  padding-block:1rem; 
+  border: 2px solid #ccc;
+  display:grid;
+  place-items: center;
+  gap:1rem;
 }
+
 .articleheadz {
   text-align: center;
   margin-top:1rem;
 }
+
 .articleitemz {
   width:85%;
   border: 2px solid black;
   margin: 5px;
   font-size: 20px;
-padding:1rem;
-padding-top:0;
+  padding:1rem;
+  padding-top:0;
 }
+
 .articleitemz>button{
   margin:0;
   margin-right:0.5rem;
-
 }
+
 .articleitemz>p{
   margin-top:0;
 }
+
 @media(max-width:500px) {
   .footer {
     display: flex;

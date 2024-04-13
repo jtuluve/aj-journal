@@ -1,20 +1,21 @@
-*{
-  box-sizing: border-box;
-}
-
 body {
   margin: 0;
   min-height: 100vh;
   display: grid;
-    align-items: center;
-    place-items: center;
+  align-items: center;
+  place-items: center;
   overflow-x: hidden;
   min-height: 100vh;
   background-image: linear-gradient(90deg, #f3f5f8, #ebf4fd);
 }
+*{
+  box-sizing: border-box;
+}
+
 .headT{
   width:98vw;
 }
+
 hr{
   margin-bottom:1rem;
 }
@@ -24,6 +25,7 @@ br {
   margin: 6px 0;
   content: '\A';
 }
+
 .abCur{
   width:95vw;
 }
@@ -51,7 +53,6 @@ br {
   z-index: 10;
   left: 3%;
 }
-
 
 .headbg {
   width: 95%;
@@ -92,9 +93,6 @@ br {
   gap: 10px;
 }
 
-
-
-
 .menu .btn {
   min-height: 3vh;
   font-weight: bolder;
@@ -122,15 +120,13 @@ br {
   grid-template-columns: 1fr auto;
 }
 
-
-  .InsSub {
-    margin-left: 4%;
-    display: grid;
-    grid-template-rows: auto auto;
-    align-items: start;
-    align-content: stretch;
+.InsSub {
+  margin-left: 4%;
+  display: grid;
+  grid-template-rows: auto auto;
+  align-items: start;
+  align-content: stretch;
 }
-
 
 button {
   margin: 8px;
@@ -150,26 +146,25 @@ button:hover {
   box-sizing: border-box;
   box-shadow: 4px 3px white;
 }
+
 b~p{
   text-align: justify;
 }
 .sub {
-    position: relative;
-    width: 30vw;
-    height: fit-content;
-    display: flex;
-    text-align: center;
-    margin-left: 10px;
-    flex-direction: column;
-    justify-content: flex-start;
-    padding-bottom: 2rem;
-    border-radius: 30px;
-    border: 2px solid #ccc;
-    overflow: hidden;
-    align-items: center;
-    background-color: #ffffff69;
-
-
+  position: relative;
+  width: 30vw;
+  height: fit-content;
+  display: flex;
+  text-align: center;
+  margin-left: 10px;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding-bottom: 2rem;
+  border-radius: 30px;
+  border: 2px solid #ccc;
+  overflow: hidden;
+  align-items: center;
+  background-color: #ffffff69;
 }
 
 .InsButtonGrid {
@@ -199,9 +194,11 @@ b~p{
   background-color: rgba(255, 255, 255, 0);
   clear: both;
 }
+
 button .sub-btn{
   bottom:auto;
 }
+
 .sub-btn {
   height: fit-content;
   color: black;
@@ -257,13 +254,13 @@ button .sub-btn{
 .about {
   width: 100%;
   box-sizing: border-box;
-    padding:1.2rem 2.4rem;
-    border: 2px solid #ccc;
-    font-size: 24px;
-    text-align: center;
-    overflow: hidden;
-    border-radius: 30px;
-    background-color: #ffffff69;
+  padding:1.2rem 2.4rem;
+  border: 2px solid #ccc;
+  font-size: 24px;
+  text-align: center;
+  overflow: hidden;
+  border-radius: 30px;
+  background-color: #ffffff69;
 }
 
 .editorialTeam {
@@ -278,7 +275,6 @@ button .sub-btn{
 }
 
 .aweb {
-  
   width: 100;
   height: 50vh;
   border: 3px solid black;
@@ -298,11 +294,9 @@ button .sub-btn{
   display: flex;
   font-weight: bold;
   align-items: center;
-  
- 
 }
-.heading>u>p{
-  
+
+.heading>u>p{ 
   font-size: 1.7rem;
 }
 
@@ -334,8 +328,6 @@ button .sub-btn{
   margin-bottom: 10px;
 }
 
-
-
 .item {
   height: 8rem;
   border: 3px solid black;
@@ -350,8 +342,8 @@ button .sub-btn{
   border: 2px solid #ccc;
   display: grid;
   grid-template-areas:
-      "heading heading heading heading"
-      "item1 item2 item3 item4 ";
+    "heading heading heading heading"
+    "item1 item2 item3 item4 ";
   grid-gap: 10px;
   gap: 10px;
   font-size: 20px;
@@ -361,12 +353,10 @@ button .sub-btn{
   padding-inline: 1rem;
 }
 
-
 .publishwithus {
   display: grid;
   grid-template-areas:
     "item1 item2 item3 item4 item5 item6 item7 item8 item9";
-
   gap: 10px;
   font-size: 20px;
   border-radius: 20px 20px 20px 20px;
@@ -375,13 +365,13 @@ button .sub-btn{
 
 .article {
   margin-top: 3rem;
-    padding-inline: 1rem;
-    padding-bottom: 1rem;
-    padding-top: 1rem;
-    font-size: 25px;
-    border: 2px solid #ccc;
-    background-color: #ffffff69;
-    border-radius: 20px 20px 20px 20px;
+  padding-inline: 1rem;
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+  font-size: 25px;
+  border: 2px solid #ccc;
+  background-color: #ffffff69;
+  border-radius: 20px 20px 20px 20px;
 }
 
 .about1 {
@@ -393,15 +383,16 @@ button .sub-btn{
 .articlehead {
   text-align: center;
 }
+
 .article>u>p{
   margin-top:0;
 }
+
 .articleitem,
 .publishwithus {
   border: 2px solid black;
   margin: 5px;
   font-size: 20px;
-
 }
 
 .articleitem{
@@ -545,7 +536,6 @@ button .sub-btn{
     justify-content: center;
     align-items: center;
     height: fit-content;
-
   }
 
   .footer_logo {
@@ -600,10 +590,8 @@ button .sub-btn{
     margin-top: 5px;
     border-radius: 15px;
     width: 100%;
-    height: 100%;
-    
+    height: 100%;  
   }
- 
 
   .ins {
     padding-bottom: 100%;
@@ -617,6 +605,7 @@ a{
   text-decoration: none;
   color: #fff;
 }
+
 .contact-section {
   margin: 20px 0;
 }
@@ -653,13 +642,16 @@ input[type="submit"] {
 .iframe {
   width: 98.5%;
 }
+
 .maps>h2{
   padding-bottom:1rem;
 }
+
 .form,
 .contact_form {
   margin-inline: 2%;
 }
+
 .contact_form{
   padding-bottom:1rem;
 }
@@ -705,8 +697,7 @@ input[type="submit"] {
   border-radius: 10px;
   transform: scale(1);
   box-shadow: inset 0 0 0 0 #f793106f;
-  transition: box-shadow ease-in-out .5s,
-    color ease-out 1s, transform ease-out 1s, background-color ease-out 1s;
+  transition: box-shadow ease-in-out .5s,color ease-out 1s, transform ease-out 1s, background-color ease-out 1s;
   transition-delay: .3s;
 }
 

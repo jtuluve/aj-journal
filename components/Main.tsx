@@ -1,8 +1,10 @@
-import '../styles/globals.css'
+import '../styles/globals.css';
+
 const Main = () => {
   return (
     <div className="abCur">
       <div className="mainAboutIns">
+
         <div className="about">
           <b><p>ABOUT THE JOURNAL</p></b>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque sequi quae, obcaecati quasi atque
@@ -17,6 +19,7 @@ const Main = () => {
             consequuntur
             culpa dolore beatae. Repellat modi veniam magnam animi dolorem.</p>
         </div>
+
         <div className="InsSub">
           <div className="sub">
             <u><h3 className="ins">Instructions</h3></u>
@@ -29,6 +32,7 @@ const Main = () => {
                 LIBRARIAN</button></a>
             </div>
           </div>
+
           <div className="subm">
             <div className="d">
               <a  href='/submission'><button className="btn sbmbtn">
@@ -37,6 +41,7 @@ const Main = () => {
             </div>
           </div>
         </div>
+
         <div className="gcontainer">
           <div className="heading">
             <u><p>CURRENT ISSUE</p></u>
@@ -55,8 +60,10 @@ const Main = () => {
           </div>
         </div>
       </div>
+
       <br /><br />
       <br /><br />
+      
       <div className="article">
         <u><p className="articlehead">
           RESEARCH ARTICLES

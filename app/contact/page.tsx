@@ -5,7 +5,6 @@ const Contact = () => {
     <div className="container1contact">
       <div id="contactUsContent">
         <h1>CONTACT US</h1>
-        {/* Office Address */}
         <div className="contact-section">
           <h2>Office Address</h2>
           <p>A.J. Hospital &amp; Research Centre
@@ -14,11 +13,14 @@ const Contact = () => {
             INDIA</p>
         </div>
       </div>
+      
       <link />
+      
+      {/* Contact Form */}
       <div className="form_iframe">
-        {/* Contact Form */}
         <div className="contact-section contactf">
           <h2 className="contact_form">Contact Form</h2>
+
           <form className="form" action="#" method="post">
             <label htmlFor="name">Name:</label>
             <input type="text" id="name" name="name" placeholder="Enter the name" required />
@@ -32,7 +34,9 @@ const Contact = () => {
             <textarea id="message" name="message" placeholder="Enter the querry" style={{ height: '20vh' }} required defaultValue={""} />
             <input className="submit" type="submit" defaultValue="Submit" />
           </form>
+
         </div>
+
         {/* Google Maps Section */}
         <div className="contact-section maps">
           <h2>Location on Google Maps</h2>

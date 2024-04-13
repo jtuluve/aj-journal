@@ -2,39 +2,53 @@ import '../../styles/archive.css'
 
 const Archive = () => {
   return (
+
     <div className="container1archieve">
       <div className="gcontainerz">
+
         <div className="headingz">
           <u><p>ARCHIVES</p></u>
         </div>
+
         <div className="item item1z">
           <p>VOLUME NO # (YEAR)</p>
         </div>
+
         <div className="item item2z">
           <p>VOLUME NO # (YEAR)</p>
         </div>
+
         <div className="item item3z">
           <p>VOLUME NO # (YEAR)</p>
         </div>
+
         <div className="item item4z">
           <p>VOLUME NO # (YEAR)</p>
         </div>
+
         <div className="item item5z">
           <p>VOLUME NO # (YEAR)</p>
         </div>
+
         <div className="item item6z">
           <p>VOLUME NO # (YEAR)</p>
         </div>
-      </div><br /><br />
+      </div>
+      <br />
+      <br />
+
       <div className="currentArchivez">
         <h1>CURRENT VOLUME</h1>
         <h1>VOLUME NO #<br /> (YEAR)</h1>
         <h1>(FRONT VIEW AND DETAILS ABOUT THE VOLUME)</h1>
       </div>
+
       <div className="articlez articlezArch">
-        <u><p className="articleheadz">
+        <u>
+          <p className="articleheadz">
           RESEARCH ARTICLES
-        </p></u>
+          </p>
+        </u>
         <div className="articleitemz">
           <a href="#">article title 1 link</a>
           <br />
@@ -42,6 +56,7 @@ const Archive = () => {
           <button>PDF download</button>
           <button>extra file/attachment file</button>
         </div>
+
         <div className="articleitemz">
           <a href="#">article title 2 link</a>
           <br />
@@ -49,6 +64,7 @@ const Archive = () => {
           <button>PDF download</button>
           <button>extra file/attachment file</button>
         </div>
+        
         <div className="articleitemz">
           <a href="#">article title 3 link</a>
           <br />

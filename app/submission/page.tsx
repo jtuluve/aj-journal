@@ -1,15 +1,10 @@
 import '../../styles/submission.css'
+
 const SUbmission = () => {
     return (
     <div className="Submission">
-
-
-
-
-
-
-      
-    </div>)
-  }
+  
+    </div>
+    )}
   export default SUbmission
   

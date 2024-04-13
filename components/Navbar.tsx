@@ -2,11 +2,10 @@ import React from 'react'
 import Link from 'next/link';
 import Image from 'next/image';
 
-
 const Navbar = () => {
   return (
-    <div className="headT">
-        <div className="head">
+<div className="headT">
+    <div className="head">
         <a className="goHome" href="/"></a>
         <img className="headbg" src="/headding.png" alt="logo"/>
         <button className="register" >REGISTER/LOGIN</button>
@@ -27,24 +26,20 @@ const Navbar = () => {
     <br/>      
     <section className="menu">
               
-                  <a href="/" className="btn a">HOME</a>
+        <a href="/" className="btn a">HOME</a>
               
+        <a href="/archive" className="btn b">ARCHIVE</a>
+
+        <a href="/about#aboutSection" className="btn c">ABOUT US</a>
+            
+        <a href="/editorial" className="btn d">EDITORIAL TEAM</a>
+      
+        <a href="/contact" className="btn e">CONTACT US</a>
              
-                  <a href="/archive" className="btn b">ARCHIVE</a>
-              
-              
-                  <a href="/about#aboutSection" className="btn c">ABOUT US</a>
-              
-             
-                  <a href="/editorial" className="btn d">EDITORIAL TEAM</a>
-              
-              
-                  <a href="/contact" className="btn e">CONTACT US</a>
-             
-          </section>
-          <br />
-          <hr/> 
-    </div>
+    </section>
+    <br />
+    <hr/> 
+</div>
   )
 }
 

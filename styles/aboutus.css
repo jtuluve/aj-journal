@@ -4,27 +4,28 @@
     font-weight: bolder;
     font-size: 16px;
     background: none;
-    background:rgba(255, 255, 255, 0.514);
-    
+    background:rgba(255, 255, 255, 0.514);   
     padding-inline: 10px;
     padding-block: 15px;
     border-radius: 10px;
     transition: 0.5s;
 }
+
 button:hover{
     background-color: rgba(0, 0, 0, 0.129);
     box-shadow:2px 2px 5px  black;
 }
-body{
-  
+
+body{ 
     display:grid;
     align-items: center;
     place-items:center;
 }
+
 .abJ{
-    width:95vw;
-   
+    width:95vw; 
 }
+
 .options{
     align-items: center;
     justify-content: center;
@@ -38,8 +39,7 @@ body{
     border: 2px solid #ccc;
     width: 97%;
     min-height: 50vh;
-    height: max-content;
-    
+    height: max-content;    
     font-size: 24px;
     text-align: center;
     overflow: hidden;
@@ -55,9 +55,11 @@ body{
     text-align: justify;
     margin-left: 1%;
 }
+
 .aboutx:target {
     display: block;
 }
+
 hr{
     margin-bottom:1rem;
 }
