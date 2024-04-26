@@ -14,8 +14,9 @@ const About = () => {
           <a href="#AJIMSRCSection"><button className="abB">AJIMS Research Center</button></a>
           <a href="#peerSection"><button className="abB">Peer reviewing process</button></a>
           <a href="#licenceSection"><button className="abB">Licencing &amp; Copyright Policy</button></a>
+          <a href="#announcementsSection"><button className="abB">Announcements</button></a>
         </div>
-       
+
         {/** Content for About the journal Section */}
         <div id="aboutSection" className="aboutx">
           <h2>About the Journal</h2>
@@ -100,7 +101,17 @@ const About = () => {
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque sequi quae, obcaecati quasi atque consequuntur
             culpa dolore beatae. Repellat modi veniam magnam animi dolorem.</p>
         </div><br /><br />
-        
+        <div id="announcementsSection" className="aboutx">
+          <h2>Announcements</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque sequi quae, obcaecati quasi atque consequuntur
+            culpa dolore beatae. Repellat modi veniam magnam animi dolorem optio ipsum cum, commodi dignissimos
+            exercitationem.</p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque sequi quae, obcaecati quasi atque consequuntur
+            culpa dolore beatae. Repellat modi veniam magnam animi dolorem optio ipsum cum, commodi dignissimos
+            exercitationem.</p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque sequi quae, obcaecati quasi atque consequuntur
+            culpa dolore beatae. Repellat modi veniam magnam animi dolorem.</p>
+        </div><br /><br />
       </div>
       <br />
       <hr />
