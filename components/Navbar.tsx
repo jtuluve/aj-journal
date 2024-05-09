@@ -8,7 +8,7 @@ const Navbar = () => {
     <div className="head">
         <a className="goHome" href="/"></a>
         <img className="headbg" src="/headding.png" alt="logo"/>
-        <button className="register" >REGISTER/LOGIN</button>
+        <a  href='/login'><button className="register" >REGISTER/LOGIN</button></a>
         {/* <!-- Login Modal --> */}
         <div id="loginModal" className="modal">
             <div className="modal-content">
