@@ -6,11 +6,11 @@ const Navbar = () => {
       <div className="head">
         <a className="goHome" href="/"></a>
         <img className="headbg" src="/headding.png" alt="logo" />
-        <a href="/login"className="register">
+        <a href="/login" className="register">
           REGISTER/LOGIN
         </a>
         {/* unused modals | should be deleted in the future  */}
-       {/* <!-- Login Modal --> 
+        {/* <!-- Login Modal --> 
         <div id="loginModal" className="modal">
           <div className="modal-content">
             <span className="close">&times;</span>
@@ -26,25 +26,15 @@ const Navbar = () => {
       </div>
       <br />
       <section className="menu">
-        <a href="/">
-          HOME
-        </a>
+        <a href="/">HOME</a>
 
-        <a href="/archive">
-          ARCHIVE
-        </a>
+        <a href="/archive">ARCHIVE</a>
 
-        <a href="/about#aboutSection">
-          ABOUT US
-        </a>
+        <a href="/about#aboutSection">ABOUT US</a>
 
-        <a href="/editorial">
-          EDITORIAL TEAM
-        </a>
+        <a href="/editorial">EDITORIAL TEAM</a>
 
-        <a href="/contact">
-          CONTACT US
-        </a>
+        <a href="/contact">CONTACT US</a>
       </section>
       <br />
       <hr />
