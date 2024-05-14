@@ -1,0 +1,212 @@
+
+.InsSub {
+  margin-left: 4%;
+  display: grid;
+  grid-template-rows: auto auto;
+  align-items: start;
+  align-content: stretch;
+}
+
+.sub {
+  position: relative;
+  width: 30vw;
+  height: fit-content;
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding-bottom: 2rem;
+  border-radius: 30px;
+  border: 2px solid #ccc;
+  overflow: hidden;
+  align-items: center;
+  background-color: #ffffff69;
+}
+
+.InsButtonGrid {
+  display: grid;
+  grid-template-rows: auto auto auto;
+  place-items: center;
+  row-gap: 26px;
+  bottom: auto;
+}
+
+.ins {
+  font-size: 30px;
+  text-decoration: underline;
+}
+
+
+
+
+.InsButtonGrid a {
+  font-family: Arial, Helvetica, sans-serif;
+  height: fit-content;
+  font-weight: bolder;
+  font-size: 14px;
+  color: white;
+  padding: 15px 40px;
+  margin-block: 8px;
+  border: 3px inset black;
+  border-radius: 20px;
+  background-image: linear-gradient(-45deg, #bcc7e6, #131d38, #bcc7e6);
+  border-top: none;
+  transition: .5s;
+}
+
+.InsButtonGrid a:hover {
+  border: 2px solid rgb(225, 227, 228);
+  border-top: none;
+}
+
+
+.about {
+  width: 100%;
+  padding:1.2rem 2.4rem;
+  border: 2px solid #ccc;
+  font-size: 24px;
+  text-align: center;
+  overflow: hidden;
+  border-radius: 30px;
+  background-color: #ffffff69;
+}
+
+.editorialTeam {
+  width: 95%;
+  height: fit-content;
+  border: 2px solid #ccc;
+  font-size: 20px;
+  text-align: center;
+  overflow: hidden;
+  border-radius: 30px 30px 30px 30px;
+  background-color: white;
+}
+
+
+
+.heading {
+  padding-block:1.5rem 1rem;
+  height: 5vh;
+  justify-content: center;
+  display: flex;
+  font-weight: bold;
+  align-items: center;
+  font-size: 1.7rem;
+  text-decoration: underline;
+}
+
+
+.gcontainer {
+  border: 2px solid #ccc;
+  display: grid;
+  grid-gap: 10px;
+  gap: 10px;
+  font-size: 20px;
+  border-radius: 30px;
+  background-color: #ffffff69;
+  padding: 1rem;
+}
+
+.items{
+  display: flex;
+  overflow: auto;
+}
+
+.items > div {
+  height: 8rem;
+  border: 3px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-weight: bold;
+  margin: 5px 5px 10px 15px;
+}
+
+
+.article {
+  margin-top: 3rem;
+  padding: 1rem;
+  font-size: 25px;
+  border: 2px solid #ccc;
+  background-color: #ffffff69;
+  border-radius: 20px 20px 20px 20px;
+}
+
+
+.articlehead {
+  text-align: center;
+  text-decoration: underline;
+}
+
+.article>u>p{
+  margin-top:0;
+}
+
+.articleitem {
+  border: 2px solid black;
+  margin: 5px;
+  font-size: 20px;
+  margin-bottom:1rem;
+  padding-left:1rem;
+  padding-bottom: 0.5rem;
+  border-radius:10px
+}
+
+
+.articleitem>button{
+  margin-left:0;
+  margin-right:16px;
+}
+
+@media(max-width:700px) {
+  .InsButtonGrid a {
+    font-size: 12px;
+    padding-inline: 10px;
+    padding-block: 5px;
+    transition: .5s;
+  }
+
+  .sbmbtn {
+    margin-inline: auto;
+    margin-top: 5px;
+    border-radius: 20px;
+  }
+
+
+  .InsButtonGrid {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    place-items: center;
+    row-gap: 0;
+    width: 100%;
+  }
+
+  .mainAboutIns {
+    display: block;
+  }
+
+  .InsSub {
+    margin: 0;
+    margin-top: 4px;
+  }
+  .sub {
+    margin: 0px;
+    margin-top: 5px;
+    border-radius: 15px;
+    width: 100%;
+    height: 100%;
+    padding-bottom: 10px;
+  }
+
+  .ins {
+    font-size: 20px;
+    padding-bottom: 100%;
+    margin: 0px;
+    padding-block: 8px;
+  }
+  .sbmbtn{
+    margin-block: 10px;
+    font-size: 16px;
+  }
+}
