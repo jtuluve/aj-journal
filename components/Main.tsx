@@ -22,41 +22,38 @@ const Main = () => {
 
         <div className="InsSub">
           <div className="sub">
-            <u><h3 className="ins">Instructions</h3></u>
+            <h3 className="ins">Instructions</h3>
             <div className="InsButtonGrid">
-              <a href="/instructions#readers"><button className="sub-btn">
-                FOR READERS</button></a>
-              <a href="/instructions#authors"><button className="sub-btn"  value="readers">FOR
-                AUTHORS</button></a>
-              <a href="/instructions#librarians"><button className="sub-btn" >FOR
-                LIBRARIAN</button></a>
+              <a href="/instructions#readers">
+                FOR READERS</a>
+              <a href="/instructions#authors">FOR
+                AUTHORS</a>
+              <a href="/instructions#librarians">FOR
+                LIBRARIAN</a>
             </div>
           </div>
-
-          <div className="subm">
-            <div className="d">
-              <a  href='/submission'><button className="btn sbmbtn">
-                <p className="p">SUBMISSION</p>
-              </button></a>
-            </div>
-          </div>
+          <a  href='/submission' className='subm btn sbmbtn'>
+            SUBMISSION
+          </a>
         </div>
 
         <div className="gcontainer">
           <div className="heading">
-            <u><p>CURRENT ISSUE</p></u>
+            CURRENT ISSUE
           </div>
-          <div className="item item1">
-            <p>VOLUME NO # (YEAR)</p>
-          </div>
-          <div className="item item2">
-            <p>VOLUME NO # (YEAR)</p>
-          </div>
-          <div className="item item3">
-            <p>VOLUME NO # (YEAR)</p>
-          </div>
-          <div className="item item4">
-            <p>VOLUME NO # (YEAR)</p>
+          <div className="items">
+            <div>
+              <p>VOLUME NO # (YEAR)</p>
+            </div>
+            <div>
+              <p>VOLUME NO # (YEAR)</p>
+            </div>
+            <div>
+              <p>VOLUME NO # (YEAR)</p>
+            </div>
+            <div>
+              <p>VOLUME NO # (YEAR)</p>
+            </div>
           </div>
         </div>
       </div>
@@ -65,9 +62,9 @@ const Main = () => {
       <br /><br />
       
       <div className="article">
-        <u><p className="articlehead">
+        <p className="articlehead">
           RESEARCH ARTICLES
-        </p></u>
+        </p>
         <div className="articleitem">
           <a href="#">article title 1 link</a>
           <br />

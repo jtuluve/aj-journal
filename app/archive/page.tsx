@@ -5,32 +5,30 @@ const Archive = () => {
 
     <div className="container1archieve">
       <div className="gcontainerz">
-
-        <div className="headingz">
-          <u><p>ARCHIVES</p></u>
-        </div>
-
-        <div className="item item1z">
+      <p className="headingz">
+          ARCHIVES
+      </p>
+        <div>
           <p>VOLUME NO # (YEAR)</p>
         </div>
 
-        <div className="item item2z">
+        <div>
           <p>VOLUME NO # (YEAR)</p>
         </div>
 
-        <div className="item item3z">
+        <div>
           <p>VOLUME NO # (YEAR)</p>
         </div>
 
-        <div className="item item4z">
+        <div>
           <p>VOLUME NO # (YEAR)</p>
         </div>
 
-        <div className="item item5z">
+        <div>
           <p>VOLUME NO # (YEAR)</p>
         </div>
 
-        <div className="item item6z">
+        <div>
           <p>VOLUME NO # (YEAR)</p>
         </div>
       </div>
