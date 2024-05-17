@@ -39,17 +39,22 @@
 }
 
 .headingz {
-  grid-area: heading;
-  height: 5vh;
   font-size: 1.7rem;
   justify-content: center;
   display: flex;
   font-weight: bold;
   align-items: center;
+  text-decoration: underline;
 }
 
-.gcontainerz>div{
-  margin-bottom:3rem;
+.gcontainerz>div:not(.headingz){
+  border: 3px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  margin: 5px 5px 3rem 10px;
+  text-align: center;
 }
 
 .gcontainerz {
@@ -64,56 +69,6 @@
   margin-bottom: 10px;
 }
 
-.item1z {
-  grid-area: item1;
-  margin: 5px;
-  margin-left: 15px;
-  margin-bottom: 10px;
-}
-
-.item2z {
-  grid-area: item2;
-  margin: 5px;
-  margin-left: 15px;
-  margin-bottom: 10px;
-}
-
-.item3z {
-  grid-area: item3;
-  margin: 5px;
-  margin-left: 15px;
-  margin-bottom: 10px;
-}
-
-.item4z {
-  grid-area: item4;
-  margin: 5px;
-  margin-left: 15px;
-  margin-bottom: 10px;
-}
-
-.item5z {
-  grid-area: item5;
-  margin: 5px;
-  margin-left: 15px;
-  margin-bottom: 10px;
-}
-
-.item6z {
-  grid-area: item6;
-  margin: 5px;
-  margin-left: 15px;
-  margin-bottom: 10px;
-}
-
-.itemz {
-  height: 30vh;
-  border: 3px solid black;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-weight: bold;
-}
 
 .articlez {
   font-size: 25px;
@@ -145,34 +100,7 @@
   padding-top:0;
 }
 
-.articleitemz>button{
-  margin:0;
-  margin-right:0.5rem;
-}
 
 .articleitemz>p{
   margin-top:0;
-}
-
-@media(max-width:500px) {
-  .footer {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: fit-content;
-  }
-
-  .footer_logo {
-    padding-top: 5%;
-    width: 30%
-  }
-
-  .footer>div>ul>li {
-    text-align: left;
-  }
-
-  .footerDiv {
-    width: 80%;
-  }
 }
