@@ -1,6 +1,7 @@
 body{
     min-height: 150vh;
 }
+
 .log {
     height: max-content;
     min-height: 150vh;
@@ -27,7 +28,6 @@ body{
     left: 50%;
     transform: translate(-50%, -50%);
     transition: transform 0.5s ease-in-out;
-    /* Change the transition animation */
 }
 
 .registerz {
