@@ -1,4 +1,5 @@
-import '../../styles/submission.css'
+import '@/styles/submission.css'
+import React from 'react'
 
 const SUbmission = () => {
     return (

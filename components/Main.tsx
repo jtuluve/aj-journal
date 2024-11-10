@@ -1,4 +1,5 @@
-import "../styles/globals.css";
+import React from "react";
+import "@/styles/globals.css";
 
 const Main = () => {
   return (

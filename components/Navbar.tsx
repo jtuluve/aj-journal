@@ -4,7 +4,7 @@ const Navbar = () => {
   return (
     <div className="headT">
       <div className="head">
-        <a className="goHome" href="/"></a>
+        <a className="goHome" href="/" title="Home"></a>
         <img className="headbg" src="/headding.png" alt="logo" />
         <a href="/login" className="register">
           REGISTER/LOGIN

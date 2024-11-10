@@ -37,6 +37,7 @@ input[type="submit"] {
 
 .iframe {
   width: 98.5%;
+  border: 0;
 }
 
 .container1contact .maps  h2 {
@@ -127,4 +128,8 @@ input[type="submit"] {
   .form_iframe {
     flex-direction: column;
   }
+}
+
+.contactmessage{
+  height: "20vh"
 }

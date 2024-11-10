@@ -1,5 +1,5 @@
 {
-  "name": "ajims",
+  "name": "ajims-journal",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -9,12 +9,15 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "next": "^14.1.0",
+    "@types/next-auth": "^3.15.0",
+    "mongoose": "^8.8.1",
+    "next": "^15.0.3",
+    "next-auth": "^4.24.10",
     "react": "^18",
     "react-dom": "^18"
   },
   "devDependencies": {
-    "@types/node": "^20",
+    "@types/node": "^22",
     "@types/react": "^18",
     "@types/react-dom": "^18",
     "typescript": "^5"

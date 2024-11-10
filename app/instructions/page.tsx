@@ -1,4 +1,5 @@
-import '../../styles/instructions.css'
+import '@/styles/instructions.css'
+import React from 'react'
 const Instructions = () => {
     return (
         <div className="instructionDiv">
