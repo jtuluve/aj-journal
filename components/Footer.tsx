@@ -28,7 +28,7 @@ const Footer = () => {
           <h1> EMAIL </h1>
           <ul>
             <li>ENQUIRY EMAIL: 123@gmal.com</li>
-            <li> SUBMISSION EMAIL: 123@gmal.com</li>
+            <li>SUBMISSION EMAIL: 123@gmal.com</li>
           </ul>
         </div>
       </footer>

@@ -1,10 +1,12 @@
 import type { Metadata } from 'next'
+import React from 'react'
 import '../styles/globals.css'
-import { Footer, Navbar } from '@/components'
+import Footer  from '../components/Footer' 
+import Navbar from '../components/Navbar'
 
 export const metadata: Metadata = {
   title: 'AJIMS Journal',
-  description: 'Official Journal Website AJIMS',
+  description: 'Official Journal Website AJIMS dev by Gauresh, Jnanesh, Vikram, Jyothi, Nidhi, Himanshu, Milan',
   icons: {
     icon:
       [

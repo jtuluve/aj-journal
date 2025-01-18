@@ -1,4 +1,5 @@
-import "../../styles/contact.css";
+import "@/styles/contact.css";
+import React from "react";
 
 const Contact = () => {
   return (
@@ -55,7 +56,7 @@ const Contact = () => {
               id="message"
               name="message"
               placeholder="Enter the query"
-              style={{ height: "20vh" }}
+              className="contactmessage"
               required
               defaultValue={""}
             />
@@ -71,7 +72,6 @@ const Contact = () => {
             src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d31113.025483680212!2d74.845976!3d12.899478!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba35a726f995fbd%3A0x2beaab818918fa16!2sA.J.%20Institute%20of%20Medical%20Sciences!5e0!3m2!1sen!2sus!4v1706638306105!5m2!1sen!2sus"
             width="100%"
             height={300}
-            style={{ border: 0 }}
             allowFullScreen
             loading="lazy"
             referrerPolicy="no-referrer-when-downgrade"

@@ -1,5 +1,5 @@
-import "../../styles/archive.css";
-
+import "@/styles/archive.css";
+import React from "react";
 const Archive = () => {
   return (
     <div className="container1archieve">
